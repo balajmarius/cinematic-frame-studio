@@ -14,14 +14,14 @@ export const siteData = {
   },
 
   stats: [
-    { label: "Years in business", value: "16+" },
-    { label: "Videos created", value: "500+" },
-    { label: "Happy clients", value: "200+" },
-    { label: "Industry awards", value: "12" },
+    { label: "Ani de experiență", value: "16+" },
+    { label: "Videouri create", value: "500+" },
+    { label: "Clienți mulțumiți", value: "200+" },
+    { label: "Premii câștigate", value: "12" },
   ],
 
   about: {
-    headline: "We tell stories that make a difference.",
+    headline: "Spunem povești care contează.",
     body: "Avem peste 16 ani de experiență în producție si post-producție video. Ne-am început drumul în București, lucrând în unele dintre cele mai mari producții TV din România. Am filmat documentare, spoturi TV, competiții sportive, show-uri emblematice precum MasterChef, Survivor și Visuri la Cheie. De curând ne-am mutat în Timișoara — un oraș plin de potențial, în care căutăm parteneri care au ceva de spus.",
     image: "https://pertufilm.com/wp-content/uploads/2025/12/film-light-for-video-production-camera-in-studio-s-2025-03-09-04-41-58-utc.jpg",
   },
