@@ -33,7 +33,7 @@ export default function HeroSection() {
       <div className="relative z-10 container-wide section-padding py-0 flex flex-col items-start justify-center max-w-5xl w-full">
         <div className="animate-fade-up" style={{ animationDelay: "0.2s", opacity: 0 }}>
           <span className="label-tag mb-6 block">
-            {siteData.tagline} · Timișoara, România
+            Producție Video · Timișoara, România
           </span>
         </div>
 
@@ -41,14 +41,14 @@ export default function HeroSection() {
           className="display-xl text-foreground mb-6 max-w-3xl animate-fade-up"
           style={{ animationDelay: "0.4s", opacity: 0 }}
         >
-          {siteData.hero.headline}
+          Creăm video care mișcă oameni.
         </h1>
 
         <p
           className="text-lg text-muted-foreground mb-10 max-w-xl leading-relaxed animate-fade-up"
           style={{ animationDelay: "0.6s", opacity: 0 }}
         >
-          {siteData.hero.subheadline}
+          Studio de producție video cu peste 16 ani de experiență, bazat în Timișoara.
         </p>
 
         <div
@@ -56,11 +56,11 @@ export default function HeroSection() {
           style={{ animationDelay: "0.8s", opacity: 0 }}
         >
           <a href="#projects" className="btn-primary gap-2">
-            <Play size={14} fill="currentColor" />
-            {siteData.hero.cta1}
+            <Play size={11} fill="currentColor" />
+            Vezi proiecte
           </a>
           <a href="#contact" className="btn-outline">
-            {siteData.hero.cta2}
+            Contactează-ne
           </a>
         </div>
       </div>

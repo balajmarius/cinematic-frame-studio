@@ -165,5 +165,5 @@ export const siteData = {
     cta: "Hai să creăm ceva împreună.",
   },
 
-  categories: ["All", "Corporate", "Commercial", "Product", "Eveniment", "Institutional"],
+  categories: ["Toate", "Corporate", "Commercial", "Produs", "Eveniment", "Instituțional"],
 };
