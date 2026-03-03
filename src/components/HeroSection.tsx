@@ -1,5 +1,5 @@
 import { useRef, useEffect } from "react";
-import { ArrowDown, Play } from "lucide-react";
+import { ArrowDown } from "lucide-react";
 import { siteData } from "@/data/siteContent";
 
 export default function HeroSection() {
@@ -12,8 +12,7 @@ export default function HeroSection() {
   }, []);
 
   return (
-    <section className="relative w-full h-screen min-h-[600px] flex items-center justify-center overflow-hidden">
-      {/* Background video */}
+    <section className="relative w-full h-screen min-h-[600px] overflow-hidden">
       <video
         ref={videoRef}
         className="absolute inset-0 w-full h-full object-cover"
@@ -25,53 +24,15 @@ export default function HeroSection() {
         preload="metadata"
       />
 
-      {/* Cinematic overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/30 to-background/80" />
-      <div className="absolute inset-0 bg-background/20" />
-
-      {/* Content */}
-      <div className="relative z-10 container-wide section-padding py-0 flex flex-col items-start justify-center max-w-5xl w-full">
-        <div className="animate-fade-up" style={{ animationDelay: "0.2s", opacity: 0 }}>
-          <span className="label-tag mb-6 block">
-            Producție Video · Timișoara, România
-          </span>
-        </div>
-
-        <h1
-          className="display-xl text-foreground mb-6 max-w-3xl animate-fade-up"
-          style={{ animationDelay: "0.4s", opacity: 0 }}
-        >
-          Creăm video care mișcă oameni.
-        </h1>
-
-        <p
-          className="text-lg text-muted-foreground mb-10 max-w-xl leading-relaxed animate-fade-up"
-          style={{ animationDelay: "0.6s", opacity: 0 }}
-        >
-          Studio de producție video cu peste 16 ani de experiență, bazat în Timișoara.
-        </p>
-
-        <div
-          className="flex flex-wrap gap-4 animate-fade-up"
-          style={{ animationDelay: "0.8s", opacity: 0 }}
-        >
-          <a href="#projects" className="btn-primary gap-2">
-            <Play size={11} fill="currentColor" />
-            Vezi proiecte
-          </a>
-          <a href="#contact" className="btn-outline">
-            Contactează-ne
-          </a>
-        </div>
-      </div>
+      {/* Subtle cinematic vignette only */}
+      <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-transparent to-background/70" />
 
       {/* Scroll indicator */}
-      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-fade-in" style={{ animationDelay: "1.4s", opacity: 0 }}>
-        <span className="label-tag">Scroll</span>
-        <div className="w-px h-12 relative overflow-hidden bg-border">
+      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-fade-in" style={{ animationDelay: "1s", opacity: 0 }}>
+        <div className="w-px h-12 relative overflow-hidden bg-foreground/20">
           <div className="absolute inset-x-0 top-0 h-1/2 bg-gold animate-[scroll-indicator_1.8s_ease-in-out_infinite]" />
         </div>
-        <ArrowDown size={14} className="text-muted-foreground" />
+        <ArrowDown size={13} className="text-foreground/40" />
       </div>
 
       <style>{`
