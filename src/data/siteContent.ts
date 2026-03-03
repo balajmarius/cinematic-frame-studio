@@ -2,8 +2,8 @@ export const siteData = {
   name: "PertuFilm",
   tagline: "Video Production",
   description: "Productie video Timisoara",
-  logo: "https://pertufilm.com/wp-content/uploads/2025/04/Logo-PertuFilm-v1_pt-500x150-site.png",
-  logoWhite: "https://pertufilm.com/wp-content/uploads/2025/04/Logo-PertuFilm-v1_pt-500x150-site.png",
+  logo: "https://pertufilm.com/wp-content/uploads/2025/04/Logo-PertuFilm-v1_pt-500x150-site-e1765198616429.png",
+  logoWhite: "https://pertufilm.com/wp-content/uploads/2025/04/Logo-PertuFilm-v1_pt-500x150-site-e1765198616429.png",
 
   hero: {
     videoUrl: "https://pertufilm.com/wp-content/uploads/2025/12/reel.mp4",
