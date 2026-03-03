@@ -14,20 +14,18 @@ export default function AboutSection() {
             <div className="relative rounded-2xl overflow-hidden aspect-[4/5]">
               <img
                 src={siteData.about.image}
-                alt="PertuFilm studio"
+                alt="Studio PertuFilm"
                 className="w-full h-full object-cover"
                 loading="lazy"
               />
-              {/* Overlay gradient */}
               <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent" />
             </div>
-            {/* Floating stat card */}
             <div
               className="absolute -bottom-6 -right-6 card-surface p-6 w-44 text-center"
               style={{ background: "hsl(var(--surface-elevated))" }}
             >
               <div className="text-4xl font-display font-bold text-gold">16+</div>
-              <div className="text-xs text-muted-foreground mt-1 tracking-wide uppercase">Ani experiență</div>
+              <div className="text-xs text-muted-foreground mt-1 tracking-wide uppercase">Ani de experiență</div>
             </div>
           </div>
 
@@ -42,7 +40,6 @@ export default function AboutSection() {
               {siteData.about.body}
             </p>
 
-            {/* Stats row */}
             <div className="grid grid-cols-2 gap-6">
               {siteData.stats.map((stat) => (
                 <div key={stat.label} className="border-t border-border pt-5">
@@ -54,6 +51,12 @@ export default function AboutSection() {
                   </div>
                 </div>
               ))}
+            </div>
+
+            <div className="mt-10">
+              <a href="#contact" className="btn-primary">
+                Lucrează cu noi
+              </a>
             </div>
           </div>
         </div>

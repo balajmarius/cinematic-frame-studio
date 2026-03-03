@@ -120,25 +120,27 @@
   }
 
   .btn-primary {
-    @apply inline-flex items-center gap-2 px-7 py-3.5 font-semibold text-sm tracking-wide rounded-lg transition-all duration-300;
+    @apply inline-flex items-center gap-2 px-5 py-2 font-medium text-xs tracking-[0.12em] uppercase rounded-sm transition-all duration-300;
     background-color: hsl(var(--gold));
     color: hsl(0 0% 5%);
+    letter-spacing: 0.1em;
   }
 
   .btn-primary:hover {
     background-color: hsl(42 70% 65%);
     transform: translateY(-1px);
-    box-shadow: 0 8px 30px hsl(var(--gold) / 0.25);
+    box-shadow: 0 6px 24px hsl(var(--gold) / 0.2);
   }
 
   .btn-outline {
-    @apply inline-flex items-center gap-2 px-7 py-3.5 font-semibold text-sm tracking-wide rounded-lg border transition-all duration-300;
-    border-color: hsl(var(--foreground) / 0.25);
+    @apply inline-flex items-center gap-2 px-5 py-2 font-medium text-xs tracking-[0.12em] uppercase rounded-sm border transition-all duration-300;
+    border-color: hsl(var(--foreground) / 0.2);
     color: hsl(var(--foreground));
+    letter-spacing: 0.1em;
   }
 
   .btn-outline:hover {
-    border-color: hsl(var(--gold));
+    border-color: hsl(var(--gold) / 0.6);
     color: hsl(var(--gold));
     transform: translateY(-1px);
   }

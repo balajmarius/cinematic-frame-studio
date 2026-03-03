@@ -13,7 +13,7 @@ export default function ServicesSection() {
           <span className="label-tag mb-4 block">Ce facem</span>
           <div className="divider-line mb-6" />
           <h2 className="display-lg text-foreground max-w-xl">
-            Full-service video production.
+            Producție video completă.
           </h2>
         </div>
 
@@ -50,7 +50,6 @@ function ServiceCard({
         }
       }}
     >
-      {/* Image/Video thumbnail */}
       <div className="relative aspect-[16/9] overflow-hidden">
         <img
           src={service.thumbnail}
@@ -75,7 +74,6 @@ function ServiceCard({
         </div>
       </div>
 
-      {/* Content */}
       <div className="p-6">
         <span className="text-xs font-medium text-gold tracking-widest uppercase block mb-3">
           0{index + 1}

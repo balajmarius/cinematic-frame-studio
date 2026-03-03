@@ -52,7 +52,7 @@ export default function Navbar() {
 
         {/* CTA */}
         <div className="hidden md:flex items-center gap-4">
-          <a href="#contact" className="btn-primary text-sm">
+          <a href="#contact" className="btn-primary">
             Hai să lucrăm
           </a>
         </div>
@@ -61,7 +61,7 @@ export default function Navbar() {
         <button
           className="md:hidden text-foreground"
           onClick={() => setMenuOpen(!menuOpen)}
-          aria-label="Toggle menu"
+          aria-label="Deschide meniu"
         >
           {menuOpen ? <X size={22} /> : <Menu size={22} />}
         </button>
@@ -80,7 +80,7 @@ export default function Navbar() {
               {link.label}
             </a>
           ))}
-          <a href="#contact" className="btn-primary text-sm w-fit mt-2">
+          <a href="#contact" className="btn-primary w-fit mt-2">
             Hai să lucrăm
           </a>
         </div>

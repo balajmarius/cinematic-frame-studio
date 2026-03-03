@@ -3,7 +3,6 @@ import { siteData } from "@/data/siteContent";
 
 export default function ClientsSection() {
   const ref = useReveal();
-  // Duplicate for seamless scroll
   const doubled = [...siteData.clients, ...siteData.clients];
 
   return (
@@ -17,7 +16,6 @@ export default function ClientsSection() {
         </div>
       </div>
 
-      {/* Scrolling logos */}
       <div className="relative w-full">
         <div className="flex gap-12 w-max" style={{ animation: "scroll-x 30s linear infinite" }}>
           {doubled.map((client, i) => (

@@ -5,7 +5,6 @@ export default function Footer() {
     <footer className="bg-surface border-t border-border">
       <div className="container-wide section-padding py-12">
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
-          {/* Brand */}
           <div>
             <img
               src={siteData.logo}
@@ -18,7 +17,6 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Links */}
           <nav className="flex flex-wrap gap-x-8 gap-y-3">
             {[
               { label: "Proiecte", href: "#projects" },
