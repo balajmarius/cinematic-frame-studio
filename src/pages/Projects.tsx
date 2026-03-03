@@ -1,13 +1,14 @@
-import Navbar from "@/components/Navbar";
-import HeroSection from "@/components/HeroSection";
-import FeaturedProjects from "@/components/FeaturedProjects";
-import ClientsSection from "@/components/ClientsSection";
-import Footer from "@/components/Footer";
 import { useEffect } from "react";
+import Navbar from "@/components/Navbar";
+import ProjectsSection from "@/components/ProjectsSection";
+import Footer from "@/components/Footer";
 import { usePageMeta } from "@/hooks/usePageMeta";
 
-const Index = () => {
-  usePageMeta({});
+export default function Projects() {
+  usePageMeta({
+    title: "Portofoliu",
+    description: "Descoperă proiectele noastre — filmări corporate, comerciale, after movie și content video pentru branduri din România.",
+  });
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -28,21 +29,11 @@ const Index = () => {
 
   return (
     <div className="bg-background text-foreground min-h-screen">
-      <a
-        href="#main-content"
-        className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:px-4 focus:py-2 focus:bg-gold focus:text-background focus:rounded-sm focus:text-sm focus:font-medium"
-      >
-        Sari la conținut
-      </a>
       <Navbar />
-      <main id="main-content">
-        <HeroSection />
-        <FeaturedProjects />
-        <ClientsSection />
+      <main id="main-content" className="pt-20">
+        <ProjectsSection />
       </main>
       <Footer />
     </div>
   );
-};
-
-export default Index;
+}

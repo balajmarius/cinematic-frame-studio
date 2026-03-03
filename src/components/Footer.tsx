@@ -16,17 +16,17 @@ export default function Footer() {
             </p>
           </div>
 
-          <nav className="flex flex-wrap gap-x-8 gap-y-3">
+          <nav aria-label="Linkuri de navigare" className="flex flex-wrap gap-x-8 gap-y-3">
             {[
-              { label: "Proiecte", href: "#projects" },
-              { label: "Servicii", href: "#services" },
-              { label: "Despre noi", href: "#about" },
-              { label: "Contact", href: "#contact" },
+              { label: "Proiecte", href: "/portofoliu" },
+              { label: "Servicii", href: "/servicii" },
+              { label: "Despre noi", href: "/despre-noi" },
+              { label: "Contact", href: "/contact" },
             ].map((link) => (
               <a
                 key={link.href}
                 href={link.href}
-                className="text-sm text-muted-foreground hover:text-foreground transition-colors duration-200"
+                className="text-sm text-muted-foreground hover:text-foreground transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-background rounded-sm"
               >
                 {link.label}
               </a>

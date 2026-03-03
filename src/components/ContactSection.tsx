@@ -49,6 +49,7 @@ export default function ContactSection() {
             ) : (
               <form onSubmit={handleSubmit} className="card-surface p-8 flex flex-col gap-5">
                 <FormField
+                  id="contact-name"
                   label="Nume"
                   type="text"
                   value={form.name}
@@ -57,6 +58,7 @@ export default function ContactSection() {
                   required
                 />
                 <FormField
+                  id="contact-email"
                   label="Email"
                   type="email"
                   value={form.email}
@@ -65,16 +67,17 @@ export default function ContactSection() {
                   required
                 />
                 <div className="flex flex-col gap-2">
-                  <label className="text-xs font-medium text-muted-foreground tracking-wide uppercase">
+                  <label htmlFor="contact-message" className="text-xs font-medium text-muted-foreground tracking-wide uppercase">
                     Mesaj
                   </label>
                   <textarea
+                    id="contact-message"
                     value={form.message}
                     onChange={(e) => setForm({ ...form, message: e.target.value })}
                     placeholder="Descrie proiectul tău..."
                     required
                     rows={5}
-                    className="bg-muted border border-border rounded-lg px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:border-gold transition-colors duration-200 resize-none"
+                    className="bg-muted border border-border rounded-lg px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-gold focus:border-gold transition-colors duration-200 resize-none"
                   />
                 </div>
                 <button type="submit" className="btn-primary w-full justify-center mt-2 gap-2">
@@ -91,20 +94,21 @@ export default function ContactSection() {
 }
 
 function FormField({
-  label, type, value, onChange, placeholder, required,
+  label, type, value, onChange, placeholder, required, id,
 }: {
-  label: string; type: string; value: string; onChange: (v: string) => void; placeholder: string; required?: boolean;
+  label: string; type: string; value: string; onChange: (v: string) => void; placeholder: string; required?: boolean; id: string;
 }) {
   return (
     <div className="flex flex-col gap-2">
-      <label className="text-xs font-medium text-muted-foreground tracking-wide uppercase">{label}</label>
+      <label htmlFor={id} className="text-xs font-medium text-muted-foreground tracking-wide uppercase">{label}</label>
       <input
+        id={id}
         type={type}
         value={value}
         onChange={(e) => onChange(e.target.value)}
         placeholder={placeholder}
         required={required}
-        className="bg-muted border border-border rounded-lg px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:border-gold transition-colors duration-200"
+        className="bg-muted border border-border rounded-lg px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-gold focus:border-gold transition-colors duration-200"
       />
     </div>
   );

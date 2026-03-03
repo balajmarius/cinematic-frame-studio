@@ -1,5 +1,4 @@
 import { useRef } from "react";
-import { Play } from "lucide-react";
 import { siteData } from "@/data/siteContent";
 import { useReveal } from "@/hooks/useReveal";
 
@@ -38,9 +37,10 @@ function ServiceCard({
   const ref = useReveal();
 
   return (
-    <div
-      ref={ref}
-      className="reveal group card-surface cursor-default overflow-hidden"
+    <a
+      ref={ref as React.RefObject<HTMLAnchorElement>}
+      href={`/servicii/${service.slug}`}
+      className="reveal group card-surface cursor-pointer overflow-hidden block"
       style={{ transitionDelay: `${index * 0.1}s` }}
       onMouseEnter={() => videoRef.current?.play().catch(() => {})}
       onMouseLeave={() => {
@@ -64,14 +64,10 @@ function ServiceCard({
           loop
           playsInline
           preload="none"
+          aria-hidden="true"
           className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-500"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-surface via-transparent to-transparent" />
-        <div className="absolute bottom-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-          <div className="bg-gold/90 rounded-full p-2">
-            <Play size={12} fill="currentColor" className="text-background ml-0.5" />
-          </div>
-        </div>
+        <div className="absolute inset-0 bg-gradient-to-t from-surface via-transparent to-transparent" aria-hidden="true" />
       </div>
 
       <div className="p-6">
@@ -83,6 +79,6 @@ function ServiceCard({
         </h3>
         <p className="text-sm text-muted-foreground leading-relaxed">{service.excerpt}</p>
       </div>
-    </div>
+    </a>
   );
 }

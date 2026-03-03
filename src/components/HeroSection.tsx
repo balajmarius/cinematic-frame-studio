@@ -12,7 +12,7 @@ export default function HeroSection() {
   }, []);
 
   return (
-    <section className="relative w-full h-screen min-h-[600px] overflow-hidden">
+    <section className="relative w-full h-screen min-h-[600px] overflow-hidden" aria-label="Video de prezentare PertuFilm">
       <video
         ref={videoRef}
         className="absolute inset-0 w-full h-full object-cover"
@@ -22,13 +22,19 @@ export default function HeroSection() {
         loop
         playsInline
         preload="metadata"
+        aria-hidden="true"
       />
 
-      {/* Subtle cinematic vignette only */}
-      <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-transparent to-background/70" />
+      {/* Cinematic vignette — solid at bottom so video fades into content */}
+      <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-transparent via-60% to-background" aria-hidden="true" />
+
+      {/* Screen-reader heading */}
+      <div className="sr-only">
+        <h1>{siteData.name} — {siteData.hero.subheadline}</h1>
+      </div>
 
       {/* Scroll indicator */}
-      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-fade-in" style={{ animationDelay: "1s", opacity: 0 }}>
+      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-fade-in" style={{ animationDelay: "1s", opacity: 0 }} aria-hidden="true">
         <div className="w-px h-12 relative overflow-hidden bg-foreground/20">
           <div className="absolute inset-x-0 top-0 h-1/2 bg-gold animate-[scroll-indicator_1.8s_ease-in-out_infinite]" />
         </div>
