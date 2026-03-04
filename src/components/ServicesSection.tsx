@@ -70,25 +70,31 @@ function ServiceRow({
     <a
       ref={ref as unknown as React.RefObject<HTMLAnchorElement>}
       href={`/servicii/${service.slug}`}
-      className="reveal group block border-b border-border py-8 first:pt-0 transition-colors duration-200"
+      className="reveal group block first:pt-0"
       style={{ transitionDelay: `${index * 0.08}s` }}
       onMouseEnter={() => { setHovered(true); onHover(); }}
       onMouseLeave={() => { setHovered(false); onLeave(); }}
     >
-      <div className="flex items-baseline gap-6">
-        <span className="text-sm font-medium text-muted-foreground tracking-widest font-display">
-          0{index + 1}.
-        </span>
-        <h3
-          className="font-display text-3xl md:text-5xl font-bold text-foreground group-hover:text-gold"
-          style={{
-            clipPath: hovered ? "inset(0 0 0% 0)" : "inset(0 0 20% 0)",
-            transition: "clip-path 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94), color 0.3s",
-          }}
-        >
-          {service.title}
-        </h3>
+      <div
+        className="py-8"
+        style={{
+          clipPath: hovered ? "inset(0 0 0% 0)" : "inset(0 0 25% 0)",
+          transition: "clip-path 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+        }}
+      >
+        <div className="flex items-baseline gap-6">
+          <span className="text-sm font-medium text-muted-foreground tracking-widest font-display">
+            0{index + 1}.
+          </span>
+          <h3
+            className="font-display text-3xl md:text-5xl font-bold text-foreground group-hover:text-gold"
+            style={{ transition: "color 0.3s" }}
+          >
+            {service.title}
+          </h3>
+        </div>
       </div>
+      <div className="border-b border-border" />
     </a>
   );
 }
