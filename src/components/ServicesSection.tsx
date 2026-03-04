@@ -19,6 +19,8 @@ export default function ServicesSection() {
                 index={i}
                 onHover={() => setHoveredIndex(i)}
                 onLeave={() => setHoveredIndex(null)}
+                isAnyHovered={hoveredIndex !== null}
+                isHovered={hoveredIndex === i}
               />
             ))}
           </div>
@@ -57,44 +59,59 @@ function ServiceRow({
   index,
   onHover,
   onLeave,
+  isAnyHovered,
+  isHovered,
 }: {
   service: typeof siteData.services[0];
   index: number;
   onHover: () => void;
   onLeave: () => void;
+  isAnyHovered: boolean;
+  isHovered: boolean;
 }) {
   const ref = useReveal();
-  const [hovered, setHovered] = useState(false);
 
   return (
     <a
       ref={ref as unknown as React.RefObject<HTMLAnchorElement>}
       href={`/servicii/${service.slug}`}
-      className="reveal group block first:pt-0"
+      className="reveal group block"
       style={{ transitionDelay: `${index * 0.08}s` }}
-      onMouseEnter={() => { setHovered(true); onHover(); }}
-      onMouseLeave={() => { setHovered(false); onLeave(); }}
+      onMouseEnter={onHover}
+      onMouseLeave={onLeave}
     >
       <div
-        className="py-8"
+        className="overflow-hidden transition-all duration-500"
         style={{
-          clipPath: hovered ? "inset(0 0 0% 0)" : "inset(0 0 25% 0)",
-          transition: "clip-path 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+          maxHeight: isHovered ? "120px" : isAnyHovered ? "60px" : "80px",
+          paddingTop: isHovered ? "2rem" : "1rem",
+          paddingBottom: isHovered ? "2rem" : "1rem",
+          transition: "max-height 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94), padding 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)",
         }}
       >
-        <div className="flex items-baseline gap-6">
-          <span className="text-sm font-medium text-muted-foreground tracking-widest font-display">
-            0{index + 1}.
-          </span>
-          <h3
-            className="font-display text-3xl md:text-5xl font-bold text-foreground group-hover:text-gold"
-            style={{ transition: "color 0.3s" }}
-          >
-            {service.title}
-          </h3>
+        <div
+          style={{
+            clipPath: isHovered ? "inset(0 0 0% 0)" : "inset(0 0 25% 0)",
+            transition: "clip-path 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+          }}
+        >
+          <div className="flex items-baseline gap-6">
+            <span className="text-sm font-medium text-muted-foreground tracking-widest font-display">
+              0{index + 1}.
+            </span>
+            <h3
+              className="font-display text-3xl md:text-5xl font-bold text-foreground group-hover:text-gold"
+              style={{ transition: "color 0.3s" }}
+            >
+              {service.title}
+            </h3>
+          </div>
         </div>
       </div>
-      <div className="border-b border-border" />
+      <div
+        className="border-b border-border transition-opacity duration-500"
+        style={{ opacity: isHovered ? 1 : 0.4 }}
+      />
     </a>
   );
 }
