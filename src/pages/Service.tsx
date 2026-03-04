@@ -58,13 +58,13 @@ export default function Service() {
                     <li key={s.id} className="relative group/nav">
                       <a
                         href={`/servicii/${s.slug}`}
-                        className={`flex items-baseline gap-3 py-4 border-b border-border text-sm font-display font-semibold tracking-wide transition-colors duration-200 ${
+                        className={`flex items-baseline gap-3 py-5 border-b border-border text-sm font-display font-semibold tracking-wide transition-all duration-300 ${
                           s.slug === slug
                             ? "text-gold"
-                            : "text-muted-foreground hover:text-foreground"
+                            : "text-muted-foreground hover:text-gold hover:pl-2"
                         }`}
                       >
-                        <span className="text-xs opacity-60">0{i + 1}.</span>
+                        <span className={`text-xs transition-opacity duration-300 ${s.slug === slug ? "opacity-80" : "opacity-40 group-hover/nav:opacity-70"}`}>0{i + 1}.</span>
                         {s.title}
                       </a>
                       <div
