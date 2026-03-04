@@ -38,9 +38,6 @@ function ProjectCard({ project }: { project: Project }) {
             className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-500"
           />
         )}
-        <span className="absolute top-3 left-3 text-[10px] font-medium px-2.5 py-1 rounded-full bg-background/70 backdrop-blur-sm text-foreground uppercase tracking-wider">
-          {project.category}
-        </span>
       </div>
 
       <div className="p-4">
