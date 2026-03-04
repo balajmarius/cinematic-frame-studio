@@ -73,7 +73,7 @@ export default function ProjectsSection() {
     <section id="projects" className="section-padding bg-background">
       <div className="container-wide">
         <div ref={ref} className="reveal mb-16">
-          <div className="flex flex-wrap gap-2" role="group" aria-label="Filtrează proiecte după categorie">
+          <div className="flex flex-wrap justify-center gap-2" role="group" aria-label="Filtrează proiecte după categorie">
               {siteData.categories.map((cat) => (
                 <button
                   key={cat}
