@@ -4,7 +4,9 @@ import { siteData } from "@/data/siteContent";
 
 export default function HeroSection() {
   const videoRef = useRef<HTMLVideoElement>(null);
+  const sectionRef = useRef<HTMLDivElement>(null);
   const [showPlayButton, setShowPlayButton] = useState(false);
+  const [scale, setScale] = useState(1);
 
   useEffect(() => {
     const video = videoRef.current;
@@ -23,11 +25,26 @@ export default function HeroSection() {
     attemptAutoplay();
   }, []);
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const section = sectionRef.current;
+      if (!section) return;
+      const scrollY = window.scrollY;
+      const sectionHeight = section.offsetHeight;
+      const progress = Math.min(scrollY / sectionHeight, 1);
+      setScale(1 + progress * 0.1);
+    };
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <section className="relative w-full h-screen min-h-[600px] overflow-hidden" aria-label="Video de prezentare PertuFilm">
+    <section ref={sectionRef} className="relative w-full h-screen min-h-[600px] overflow-hidden" aria-label="Video de prezentare PertuFilm">
       <video
         ref={videoRef}
-        className="absolute inset-0 w-full h-full object-cover"
+        className="absolute inset-0 w-full h-full object-cover transition-transform duration-100 will-change-transform"
+        style={{ transform: `scale(${scale})` }}
         src={siteData.hero.videoUrl}
         autoPlay
         muted
