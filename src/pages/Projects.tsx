@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import Navbar from "@/components/Navbar";
+import PageHero from "@/components/PageHero";
 import ProjectsSection from "@/components/ProjectsSection";
 import Footer from "@/components/Footer";
 import { usePageMeta } from "@/hooks/usePageMeta";
@@ -30,7 +31,8 @@ export default function Projects() {
   return (
     <div className="bg-background text-foreground min-h-screen">
       <Navbar />
-      <main id="main-content" className="pt-20">
+      <PageHero />
+      <main id="main-content">
         <ProjectsSection />
       </main>
       <Footer />

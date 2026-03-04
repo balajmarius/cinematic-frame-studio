@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import Navbar from "@/components/Navbar";
+import PageHero from "@/components/PageHero";
 import Footer from "@/components/Footer";
 import { siteData } from "@/data/siteContent";
 import { usePageMeta } from "@/hooks/usePageMeta";
@@ -30,9 +31,10 @@ export default function About() {
   return (
     <div className="bg-background text-foreground min-h-screen">
       <Navbar />
+      <PageHero />
       <main id="main-content">
         {/* Hero */}
-        <section className="pt-32 pb-16 section-padding bg-background">
+        <section className="pt-16 pb-16 section-padding bg-background">
           <div className="container-wide">
             <div className="reveal">
               <span className="label-tag mb-4 block">Despre noi</span>

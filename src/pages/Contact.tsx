@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import Navbar from "@/components/Navbar";
+import PageHero from "@/components/PageHero";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import { usePageMeta } from "@/hooks/usePageMeta";
@@ -27,7 +28,8 @@ export default function Contact() {
   return (
     <div className="bg-background text-foreground min-h-screen">
       <Navbar />
-      <main id="main-content" className="pt-20">
+      <PageHero />
+      <main id="main-content">
         <ContactSection />
       </main>
       <Footer />

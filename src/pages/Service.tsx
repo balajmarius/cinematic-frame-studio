@@ -2,6 +2,7 @@ import { useEffect, useRef } from "react";
 import { useParams, Navigate } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
 import Navbar from "@/components/Navbar";
+import PageHero from "@/components/PageHero";
 import Footer from "@/components/Footer";
 import { siteData } from "@/data/siteContent";
 import { usePageMeta } from "@/hooks/usePageMeta";
@@ -43,9 +44,10 @@ export default function Service() {
   return (
     <div className="bg-background text-foreground min-h-screen">
       <Navbar />
+      <PageHero />
       <main id="main-content">
         {/* Hero */}
-        <section className="pt-32 pb-16 section-padding bg-background">
+        <section className="pt-16 pb-16 section-padding bg-background">
           <div className="container-wide">
             <div className="reveal">
               <a
