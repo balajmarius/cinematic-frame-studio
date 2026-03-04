@@ -32,7 +32,7 @@ export default function HeroSection() {
       const scrollY = window.scrollY;
       const sectionHeight = section.offsetHeight;
       const progress = Math.min(scrollY / sectionHeight, 1);
-      setScale(1 + progress * 0.1);
+      setScale(1 + progress * 0.25);
     };
 
     window.addEventListener("scroll", handleScroll, { passive: true });
