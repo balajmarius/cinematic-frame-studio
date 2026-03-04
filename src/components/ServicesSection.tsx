@@ -91,7 +91,7 @@ function ServiceRow({
       >
         <div
           style={{
-            clipPath: isHovered ? "inset(0 0 0% 0)" : "inset(0 0 20% 0)",
+            clipPath: isHovered ? "inset(0 0 0% 0)" : "inset(0 0 5% 0)",
             transition: "clip-path 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)",
           }}
         >
