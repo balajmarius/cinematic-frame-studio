@@ -96,7 +96,7 @@ function ServiceRow({
           }}
         >
           <div className="flex items-baseline gap-6">
-            <span className="text-sm font-medium text-muted-foreground tracking-widest font-display" style={{ position: "relative", top: "-20px" }}>
+            <span className="text-sm font-medium text-muted-foreground tracking-widest font-display" style={{ position: "relative", top: "-15px" }}>
               0{index + 1}.
             </span>
             <h3
