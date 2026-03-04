@@ -22,7 +22,7 @@ export const siteData = {
 
   about: {
     headline: "Spunem povești care contează.",
-    body: "Avem peste 16 ani de experiență în producție și post-producție video.\n\nNe-am început drumul în București, lucrând în unele dintre cele mai mari producții TV din România — documentare, spoturi TV, competiții sportive, show-uri emblematice precum MasterChef, Survivor și Visuri la Cheie.\n\nDe curând ne-am mutat în Timișoara, un oraș plin de potențial, în care căutăm parteneri care au ceva de spus.",
+    body: "Avem peste 16 ani de experiență în producție si post-producție video. Ne-am început drumul în București, acolo unde am crescut profesional lucrând în unele dintre cele mai mari producții TV din România și colaborând cu unii dintre cei mai apreciați directori de imagine din țară.\n\nEchipa noastră este formată din profesioniști cu experiență, școliți în arta cinematografiei, cu un portofoliu bogat. Am filmat documentare, spoturi TV, competiții sportive, de robotică și gaming, clipuri de prezentare și promovare, dar și show-uri emblematice precum MasterChef, Survivor (2017), Visuri la Cheie și multe altele. Printre clienții noștri se numără companii ca Raiffeisen Bank, eMAG, Braun, Oral-B.\n\nIndiferent de proiect, punem suflet și venim cu un ochi format pentru a crea acea imagine care poate face diferența.\n\nDe curând ne-am mutat în Timișoara — un oraș nou pentru noi, dar în care intuim posibilitatea unor parteneriate speciale. Prin noi, Timisoara are o industrie noua și vrem să punem la lucru potențialul uriaș pe care îl vedem aici.\n\nCăutăm oameni sau companii care au ceva de spus, iar atunci când îi găsim, ne pricepem să punem în lumină povestea lor.",
     image: "/images/about.webp",
   },
 
