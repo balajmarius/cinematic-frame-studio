@@ -51,15 +51,12 @@ function ProjectCard({ project }: { project: Project }) {
 }
 
 export default function ProjectsSection() {
-  const [activeCategory, setActiveCategory] = useState("Toate");
+  const [activeCategory, setActiveCategory] = useState(siteData.categories[0]);
   const [animating, setAnimating] = useState(false);
-  const [displayedCategory, setDisplayedCategory] = useState("Toate");
+  const [displayedCategory, setDisplayedCategory] = useState(siteData.categories[0]);
   const ref = useReveal();
 
-  const filtered =
-    displayedCategory === "Toate"
-      ? siteData.projects
-      : siteData.projects.filter((p) => p.category === displayedCategory.toLowerCase());
+  const filtered = siteData.projects.filter((p) => p.category === displayedCategory.toLowerCase());
 
   const handleCategoryChange = (cat: string) => {
     if (cat === activeCategory) return;
