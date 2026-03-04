@@ -64,6 +64,7 @@ function ServiceRow({
   onLeave: () => void;
 }) {
   const ref = useReveal();
+  const [hovered, setHovered] = useState(false);
 
   return (
     <a
@@ -71,14 +72,20 @@ function ServiceRow({
       href={`/servicii/${service.slug}`}
       className="reveal group block border-b border-border py-8 first:pt-0 transition-colors duration-200"
       style={{ transitionDelay: `${index * 0.08}s` }}
-      onMouseEnter={onHover}
-      onMouseLeave={onLeave}
+      onMouseEnter={() => { setHovered(true); onHover(); }}
+      onMouseLeave={() => { setHovered(false); onLeave(); }}
     >
       <div className="flex items-baseline gap-6">
         <span className="text-sm font-medium text-muted-foreground tracking-widest font-display">
           0{index + 1}.
         </span>
-        <h3 className="font-display text-3xl md:text-5xl font-bold text-foreground group-hover:text-gold transition-colors duration-300">
+        <h3
+          className="font-display text-3xl md:text-5xl font-bold text-foreground group-hover:text-gold"
+          style={{
+            clipPath: hovered ? "inset(0 0 0% 0)" : "inset(0 0 20% 0)",
+            transition: "clip-path 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94), color 0.3s",
+          }}
+        >
           {service.title}
         </h3>
       </div>
