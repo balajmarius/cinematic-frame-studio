@@ -55,7 +55,7 @@ export default function Service() {
               <nav className="hidden lg:block">
                 <ul className="space-y-0">
                   {siteData.services.map((s, i) => (
-                    <li key={s.id}>
+                    <li key={s.id} className="relative group/nav">
                       <a
                         href={`/servicii/${s.slug}`}
                         className={`flex items-baseline gap-3 py-4 border-b border-border text-sm font-display font-semibold tracking-wide transition-colors duration-200 ${
@@ -67,6 +67,13 @@ export default function Service() {
                         <span className="text-xs opacity-60">0{i + 1}.</span>
                         {s.title}
                       </a>
+                      <div
+                        className="absolute bottom-0 left-0 right-0 pointer-events-none transition-opacity duration-300 group-hover/nav:opacity-0"
+                        style={{
+                          height: "15%",
+                          background: "linear-gradient(to top, hsl(var(--background)), transparent)",
+                        }}
+                      />
                     </li>
                   ))}
                 </ul>
