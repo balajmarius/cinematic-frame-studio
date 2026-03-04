@@ -2,9 +2,10 @@ import { useRef, useState, useEffect } from "react";
 
 interface PageHeroProps {
   title: string;
+  titleClassName?: string;
 }
 
-export default function PageHero({ title }: PageHeroProps) {
+export default function PageHero({ title, titleClassName }: PageHeroProps) {
   const sectionRef = useRef<HTMLDivElement>(null);
   const [scale, setScale] = useState(1);
 
@@ -31,7 +32,7 @@ export default function PageHero({ title }: PageHeroProps) {
         style={{ transform: `scale(${scale})` }}
       />
       <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-transparent via-60% to-background" aria-hidden="true" />
-      <h1 className="relative z-10 display-xl text-foreground text-center px-6 -mt-[350px]">{title}</h1>
+      <h1 className={`relative z-10 display-xl text-foreground text-center px-6 -mt-[350px] ${titleClassName || ""}`}>{title}</h1>
     </section>
   );
 }
