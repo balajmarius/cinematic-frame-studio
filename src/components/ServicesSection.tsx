@@ -11,13 +11,12 @@ export default function ServicesSection() {
       <div className="container-wide">
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_400px] gap-12 items-start">
           {/* Service list */}
-          <div className="relative">
+          <div>
             {siteData.services.map((service, i) => (
               <ServiceRow
                 key={service.id}
                 service={service}
                 index={i}
-                isSecond={i === 1}
                 onHover={() => setHoveredIndex(i)}
                 onLeave={() => setHoveredIndex(null)}
               />
@@ -56,13 +55,11 @@ export default function ServicesSection() {
 function ServiceRow({
   service,
   index,
-  isSecond,
   onHover,
   onLeave,
 }: {
   service: typeof siteData.services[0];
   index: number;
-  isSecond?: boolean;
   onHover: () => void;
   onLeave: () => void;
 }) {
@@ -73,7 +70,7 @@ function ServiceRow({
     <a
       ref={ref as unknown as React.RefObject<HTMLAnchorElement>}
       href={`/servicii/${service.slug}`}
-      className={`reveal group block first:pt-0 ${isSecond ? "relative z-10 -mt-[30%] rounded-xl bg-background" : ""}`}
+      className="reveal group block first:pt-0"
       style={{ transitionDelay: `${index * 0.08}s` }}
       onMouseEnter={() => { setHovered(true); onHover(); }}
       onMouseLeave={() => { setHovered(false); onLeave(); }}
