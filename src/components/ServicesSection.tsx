@@ -90,32 +90,36 @@ function ServiceRow({
         }}
       >
         <div
-          style={{
-            clipPath: isHovered ? "inset(0 0 0% 0)" : "inset(0 0 25% 0)",
-            transition: "clip-path 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)",
-          }}
+          className="flex h-full flex-col justify-between"
         >
-          <div className="flex items-baseline gap-6">
-            <span className="text-sm font-medium text-muted-foreground tracking-widest font-display" style={{ position: "relative", top: "-15px" }}>
-              0{index + 1}.
-            </span>
-            <h3
-              className="font-display text-3xl md:text-5xl font-bold text-foreground group-hover:text-gold"
-              style={{
-                transition: "color 0.3s, transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)",
-                transform: isHovered ? "scale(1.15)" : "scale(1)",
-                transformOrigin: "left center",
-              }}
-            >
-              {service.title}
-            </h3>
+          <div
+            style={{
+              clipPath: isHovered ? "inset(0 0 0% 0)" : "inset(0 0 25% 0)",
+              transition: "clip-path 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+            }}
+          >
+            <div className="flex items-baseline gap-6">
+              <span className="text-sm font-medium text-muted-foreground tracking-widest font-display" style={{ position: "relative", top: "-15px" }}>
+                0{index + 1}.
+              </span>
+              <h3
+                className="font-display text-3xl md:text-5xl font-bold text-foreground group-hover:text-gold"
+                style={{
+                  transition: "color 0.3s, transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+                  transform: isHovered ? "scale(1.15)" : "scale(1)",
+                  transformOrigin: "left center",
+                }}
+              >
+                {service.title}
+              </h3>
+            </div>
           </div>
+          <div
+            className="border-b border-border transition-opacity duration-500"
+            style={{ opacity: isHovered ? 1 : 0.4 }}
+          />
         </div>
       </div>
-      <div
-        className="border-b border-border transition-opacity duration-500"
-        style={{ opacity: isHovered ? 1 : 0.4 }}
-      />
     </a>
   );
 }
