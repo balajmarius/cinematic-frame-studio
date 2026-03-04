@@ -33,62 +33,25 @@ export default function About() {
       <Navbar />
       <PageHero title="Despre noi" />
       <main id="main-content">
-        {/* Hero */}
-        <section className="pt-16 pb-16 section-padding bg-background">
+        <section className="section-padding bg-background">
           <div className="container-wide">
-            <div className="reveal">
-              <span className="label-tag mb-4 block">Despre noi</span>
-              <div className="divider-line mb-8" />
-              <h1 className="display-xl text-foreground max-w-3xl">
-                {siteData.about.headline}
-              </h1>
-            </div>
-          </div>
-        </section>
-
-        {/* Image */}
-        <section className="section-padding pt-0 bg-background">
-          <div className="container-wide">
-            <div className="reveal relative rounded-2xl overflow-hidden aspect-[21/9]">
-              <img
-                src={siteData.about.image}
-                alt="Studio PertuFilm"
-                className="w-full h-full object-cover"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-background/40 to-transparent" />
-            </div>
-          </div>
-        </section>
-
-        {/* Body + Stats */}
-        <section className="section-padding pt-0 bg-background">
-          <div className="container-wide">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
-              <div className="reveal">
-                <div className="space-y-4">
-                  {siteData.about.body.split("\n\n").map((p, i) => (
-                    <p key={i} className="text-muted-foreground leading-relaxed text-lg">
-                      {p}
-                    </p>
-                  ))}
-                </div>
-                <div className="mt-10">
-                  <a href="/#contact" className="btn-primary">
-                    Lucrează cu noi
-                  </a>
-                </div>
+            <div className="reveal grid grid-cols-1 lg:grid-cols-[280px_1fr] gap-12 lg:gap-20 items-start">
+              {/* Big stat on the left */}
+              <div className="flex flex-col items-start">
+                <span className="text-[8rem] lg:text-[10rem] font-display font-bold leading-none text-gold">
+                  16+
+                </span>
+                <span className="text-sm text-muted-foreground tracking-wide uppercase mt-2">
+                  Experiență
+                </span>
               </div>
 
-              <div className="reveal grid grid-cols-2 gap-6">
-                {siteData.stats.map((stat) => (
-                  <div key={stat.label} className="border-t border-border pt-6">
-                    <div className="text-4xl font-display font-bold text-foreground mb-1">
-                      {stat.value}
-                    </div>
-                    <div className="text-xs text-muted-foreground tracking-wide uppercase">
-                      {stat.label}
-                    </div>
-                  </div>
+              {/* Body text on the right */}
+              <div className="space-y-5">
+                {siteData.about.body.split("\n\n").map((p, i) => (
+                  <p key={i} className="text-muted-foreground leading-relaxed text-lg">
+                    {p}
+                  </p>
                 ))}
               </div>
             </div>
