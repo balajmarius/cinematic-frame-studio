@@ -34,7 +34,7 @@ export const siteData = {
       excerpt: "Acoperim toată gama producțiilor video — filmări corporate, educaționale sau clipuri promoționale.",
       description: "Acoperim toată gama producțiilor video, de la filmări corporate la programe educaționale sau clipuri promoționale. Știm să punem ideile într-o lumină deosebită și favorabilă și ne asumăm responsabilitatea de a transpune povestea ta în imagini care conving.",
       thumbnail: "/images/service-production.webp",
-      video: "/videos/service-production.mp4",
+      video: "/service-production.mp4",
     },
     {
       id: 4963,
@@ -43,7 +43,7 @@ export const siteData = {
       excerpt: "Captăm momentele cheie, energia evenimentului și toate acele mici detalii care fac diferența.",
       description: "Captăm momentele cheie, energia evenimentului și toate acele mici detalii care fac diferența. Oferim servicii de filmare pentru evenimente corporate, competiții sportive, lansări de produse și materiale pentru știri. Montajele noastre video sunt create pentru a angaja publicul și pentru a-i inspira dorința de a reviziona momentele importante ale evenimentului.",
       thumbnail: "/images/service-events.webp",
-      video: "/videos/service-events.mp4",
+      video: "/service-events.mp4",
     },
     {
       id: 4962,
@@ -52,7 +52,7 @@ export const siteData = {
       excerpt: "Tu vii cu conceptul evenimentului, iar noi îți transpunem ideile în artă vizuală.",
       description: "Tu vii cu conceptul evenimentului și cu mesajul pe care vrei să-l comunici, iar noi îți transpunem ideile în artă vizuală. Avem grijă ca mesajul tău să ajungă exact acolo unde trebuie, cu un conținut video care captează atenția și transmite clar ceea ce vrei să spui.",
       thumbnail: "/images/service-content.webp",
-      video: "/videos/service-content.mp4",
+      video: "/service-content.mp4",
     },
     {
       id: 4964,
@@ -61,7 +61,7 @@ export const siteData = {
       excerpt: "Tăiem, colorăm, animăm și punem totul cap la cap într-un mod fluid și cinematic.",
       description: "Miile de ore petrecute în fața timeline-ului ne-au antrenat pentru orice provocare. Tăiem, colorăm, animăm și punem totul cap la cap într-un mod fluid și cinematic.",
       thumbnail: "/images/service-postprod.webp",
-      video: "/videos/service-postprod.mp4",
+      video: "/service-postprod.mp4",
     },
     {
       id: 73,
@@ -70,7 +70,7 @@ export const siteData = {
       excerpt: "Punem la dispoziție aparatura necesară pentru majoritatea tipurilor de filmare.",
       description: "Punem la dispoziție aparatura necesară pentru majoritatea tipurilor de filmare, de la camere și obiective, până la lumini de filmare și echipamente audio. Oferim echipamentul potrivit atunci când nu este necesară și prezența echipei complete.",
       thumbnail: "/images/service-equipment.webp",
-      video: "/videos/service-equipment.mp4",
+      video: "/service-equipment.mp4",
     },
   ],
 
@@ -84,8 +84,8 @@ export const siteData = {
       year: 2024,
       category: "content",
       thumbnail: "/images/project-5.webp",
-      video: "/videos/project-5.mp4",
-      lowresVideo: "/videos/lowres/project-5.mp4",
+      video: "/project-5.mp4",
+      lowresVideo: "/lowres-project-5.mp4",
       tags: ["Content", "Social"],
       crew: {
         "Foto / Cinematografie": ["Petru Vlad", "Andi Popa", "Ovidiu Pelmuș"],
@@ -101,8 +101,8 @@ export const siteData = {
       year: 2022,
       category: "content",
       thumbnail: "/images/service-production.webp",
-      video: "/videos/project-2.mp4",
-      lowresVideo: "/videos/lowres/project-2.mp4",
+      video: "/project-2.mp4",
+      lowresVideo: "/lowres-project-2.mp4",
       tags: ["Content", "Commercial"],
       crew: {
         "Montaj / Grafică": ["Petru Vlad"],
@@ -119,8 +119,8 @@ export const siteData = {
       year: 2020,
       category: "content",
       thumbnail: "/images/project-1.webp",
-      video: "/videos/project-1.mp4",
-      lowresVideo: "/videos/lowres/project-1.mp4",
+      video: "/project-1.mp4",
+      lowresVideo: "/lowres-project-1.mp4",
       tags: ["Content", "Corporate"],
       crew: {
         "Montaj / Grafică": ["Petru Vlad"],
@@ -136,8 +136,8 @@ export const siteData = {
       year: 2021,
       category: "content",
       thumbnail: "/images/project-3.webp",
-      video: "/videos/project-3.mp4",
-      lowresVideo: "/videos/lowres/project-3.mp4",
+      video: "/project-3.mp4",
+      lowresVideo: "/lowres-project-3.mp4",
       tags: ["Content", "Produs"],
       crew: {
         "Director / Cinematografie": ["Petru Vlad"],
@@ -153,8 +153,8 @@ export const siteData = {
       year: 2022,
       category: "content",
       thumbnail: "/images/project-4.webp",
-      video: "/videos/project-4.mp4",
-      lowresVideo: "/videos/lowres/project-4.mp4",
+      video: "/project-4.mp4",
+      lowresVideo: "/lowres-project-4.mp4",
       tags: ["Content", "Produs"],
       crew: {
         "Grafică": ["Petru Vlad"],
@@ -206,8 +206,8 @@ export const siteData = {
       year: 2018,
       category: "content",
       thumbnail: "/images/about.webp",
-      video: "/videos/project-6.mp4",
-      lowresVideo: "/videos/lowres/project-6.mp4",
+      video: "/project-6.mp4",
+      lowresVideo: "/lowres-project-6.mp4",
       tags: ["Content", "Eveniment"],
       crew: {
         "Montaj / Grafică": ["Petru Vlad"],
@@ -223,8 +223,8 @@ export const siteData = {
       year: 2021,
       category: "content",
       thumbnail: "/images/project-8.webp",
-      video: "/videos/project-8.mp4",
-      lowresVideo: "/videos/lowres/project-8.mp4",
+      video: "/project-8.mp4",
+      lowresVideo: "/lowres-project-8.mp4",
       tags: ["Content", "Corporate"],
       crew: {
         "Concept": ["Felicia Moga"],
@@ -435,8 +435,8 @@ export const siteData = {
       year: null,
       category: "content",
       thumbnail: "/images/project-7.webp",
-      video: "/videos/project-7.mp4",
-      lowresVideo: "/videos/lowres/project-7.mp4",
+      video: "/project-7.mp4",
+      lowresVideo: "/lowres-project-7.mp4",
       tags: ["Content", "Eveniment"],
       crew: {
         "Foto": ["Marian Titirigă", "Petru Vlad"],
