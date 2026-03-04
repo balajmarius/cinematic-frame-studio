@@ -22,7 +22,7 @@ export default function FeaturedProjects() {
           </a>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-0">
           {featuredServices.map((service, i) => (
             <ServiceCard
               key={service.id}
@@ -50,7 +50,7 @@ function ServiceCard({
     <a
       ref={ref as unknown as React.RefObject<HTMLAnchorElement>}
       href={`/servicii/${service.slug}`}
-      className="reveal group relative block rounded-xl overflow-hidden bg-surface border border-border aspect-[3/4]"
+      className="reveal group relative block overflow-hidden bg-surface aspect-[3/4]"
       style={{ transitionDelay: `${delay}s` }}
       onMouseEnter={() => videoRef.current?.play().catch(() => {})}
       onMouseLeave={() => {
