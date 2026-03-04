@@ -6,7 +6,7 @@ export const siteData = {
   logoWhite: "/images/logo.webp",
 
   hero: {
-    videoUrl: "/videos/hero-reel.mp4",
+    videoUrl: "/hero-reel.mp4",
     headline: "We craft video that moves people",
     subheadline: "Award-winning video production studio based in Timișoara",
     cta1: "View Projects",
