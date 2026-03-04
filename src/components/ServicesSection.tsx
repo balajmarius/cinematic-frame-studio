@@ -101,7 +101,11 @@ function ServiceRow({
             </span>
             <h3
               className="font-display text-3xl md:text-5xl font-bold text-foreground group-hover:text-gold"
-              style={{ transition: "color 0.3s" }}
+              style={{
+                transition: "color 0.3s, transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+                transform: isHovered ? "scale(1.15)" : "scale(1)",
+                transformOrigin: "left center",
+              }}
             >
               {service.title}
             </h3>
