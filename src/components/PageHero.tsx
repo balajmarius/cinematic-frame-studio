@@ -23,7 +23,7 @@ export default function PageHero() {
       <img
         src="/images/page-hero.webp"
         alt=""
-        className="absolute inset-0 w-full h-full object-cover object-bottom transition-transform duration-100 will-change-transform"
+        className="absolute inset-0 w-full h-full object-contain transition-transform duration-100 will-change-transform"
         style={{ transform: `scale(${scale})` }}
       />
       <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-transparent via-60% to-background" aria-hidden="true" />
