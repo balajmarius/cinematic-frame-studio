@@ -77,7 +77,7 @@ export default function About() {
                 <span className="text-[7.2rem] lg:text-[9rem] font-display font-bold leading-none text-gold min-w-[180px] lg:min-w-[220px]">
                   {count}+
                 </span>
-                <span className="text-sm text-muted-foreground tracking-wide uppercase pb-2"
+                <span className="text-sm text-muted-foreground tracking-wide uppercase pb-2 mb-[50px]"
                   style={{ writingMode: "vertical-rl", transform: "rotate(180deg)" }}>
                   Experiență
                 </span>
