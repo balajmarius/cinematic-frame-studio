@@ -76,11 +76,7 @@ export default function ProjectsSection() {
     <section id="projects" className="section-padding bg-background">
       <div className="container-wide">
         <div ref={ref} className="reveal mb-16">
-          <span className="label-tag mb-4 block">Portofoliu</span>
-          <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
-            <h2 className="display-lg text-foreground max-w-lg">Munca noastră vorbește de la sine.</h2>
-
-            <div className="flex flex-wrap gap-2" role="group" aria-label="Filtrează proiecte după categorie">
+          <div className="flex flex-wrap gap-2" role="group" aria-label="Filtrează proiecte după categorie">
               {siteData.categories.map((cat) => (
                 <button
                   key={cat}
@@ -95,7 +91,6 @@ export default function ProjectsSection() {
                   {cat}
                 </button>
               ))}
-            </div>
           </div>
         </div>
 
