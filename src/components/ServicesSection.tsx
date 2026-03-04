@@ -83,7 +83,7 @@ function ServiceRow({
       <div
         className="overflow-hidden transition-all duration-500"
         style={{
-          maxHeight: isHovered ? "120px" : isAnyHovered ? "60px" : "80px",
+          maxHeight: isHovered ? "160px" : isAnyHovered ? "60px" : "80px",
           paddingTop: isHovered ? "2rem" : "1rem",
           paddingBottom: isHovered ? "2rem" : "1rem",
           transition: "max-height 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94), padding 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)",
