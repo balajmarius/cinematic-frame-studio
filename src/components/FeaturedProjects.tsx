@@ -68,7 +68,7 @@ function ServiceCard({
       />
       <video
         ref={videoRef}
-        src={service.video}
+        src={`${service.video}#t=1`}
         muted
         loop
         playsInline
