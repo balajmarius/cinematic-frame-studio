@@ -83,7 +83,7 @@ export default function ClientsSection() {
     <section className="py-20 bg-surface border-y border-border" aria-label="Clienți">
       <div className="container-wide mb-10">
         <div ref={ref} className="reveal">
-          <span className="label-tag mb-2 block">Clienți de încredere</span>
+          <span className="label-tag mb-2 block">Clienți</span>
         </div>
       </div>
 
