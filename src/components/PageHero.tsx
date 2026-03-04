@@ -19,7 +19,7 @@ export default function PageHero() {
   }, []);
 
   return (
-    <section ref={sectionRef} className="relative w-full h-[50vh] min-h-[300px] mt-[200px] overflow-hidden">
+    <section ref={sectionRef} className="relative w-full h-[50vh] min-h-[300px] overflow-hidden">
       <img
         src="/images/page-hero.webp"
         alt=""
