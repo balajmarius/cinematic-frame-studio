@@ -1,14 +1,26 @@
-import { useRef, useEffect } from "react";
+import { useRef, useEffect, useState } from "react";
 import { ArrowDown } from "lucide-react";
 import { siteData } from "@/data/siteContent";
 
 export default function HeroSection() {
   const videoRef = useRef<HTMLVideoElement>(null);
+  const [showPlayButton, setShowPlayButton] = useState(false);
 
   useEffect(() => {
-    if (videoRef.current) {
-      videoRef.current.play().catch(() => {});
-    }
+    const video = videoRef.current;
+    if (!video) return;
+
+    const attemptAutoplay = async () => {
+      try {
+        video.muted = true;
+        await video.play();
+        setShowPlayButton(false);
+      } catch {
+        setShowPlayButton(true);
+      }
+    };
+
+    attemptAutoplay();
   }, []);
 
   return (
@@ -24,6 +36,18 @@ export default function HeroSection() {
         preload="metadata"
         aria-hidden="true"
       />
+
+      {showPlayButton && (
+        <button
+          type="button"
+          onClick={() => {
+            videoRef.current?.play().then(() => setShowPlayButton(false)).catch(() => {});
+          }}
+          className="absolute z-20 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 btn-outline"
+        >
+          Redă video
+        </button>
+      )}
 
       {/* Cinematic vignette — solid at bottom so video fades into content */}
       <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-transparent via-60% to-background" aria-hidden="true" />
