@@ -38,7 +38,7 @@ function ServiceCard({
 
   return (
     <a
-      ref={ref as React.RefObject<HTMLAnchorElement>}
+      ref={ref as unknown as React.RefObject<HTMLAnchorElement>}
       href={`/servicii/${service.slug}`}
       className="reveal group card-surface cursor-pointer overflow-hidden block"
       style={{ transitionDelay: `${index * 0.1}s` }}

@@ -48,7 +48,7 @@ function FeaturedCard({
 
   return (
     <a
-      ref={ref as React.RefObject<HTMLAnchorElement>}
+      ref={ref as unknown as React.RefObject<HTMLAnchorElement>}
       href={`/portofoliu/${project.slug}`}
       className="reveal group relative block rounded-xl overflow-hidden bg-surface border border-border aspect-[3/4]"
       style={{ transitionDelay: `${delay}s` }}
