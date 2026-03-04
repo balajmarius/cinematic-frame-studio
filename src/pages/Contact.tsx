@@ -28,7 +28,7 @@ export default function Contact() {
   return (
     <div className="bg-background text-foreground min-h-screen">
       <Navbar />
-      <PageHero />
+      <PageHero title="Contact" />
       <main id="main-content">
         <ContactSection />
       </main>

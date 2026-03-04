@@ -44,7 +44,7 @@ export default function Service() {
   return (
     <div className="bg-background text-foreground min-h-screen">
       <Navbar />
-      <PageHero />
+      <PageHero title={service.title} />
       <main id="main-content">
         {/* Hero */}
         <section className="pt-16 pb-16 section-padding bg-background">

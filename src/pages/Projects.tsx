@@ -31,7 +31,7 @@ export default function Projects() {
   return (
     <div className="bg-background text-foreground min-h-screen">
       <Navbar />
-      <PageHero />
+      <PageHero title="Portofoliu" />
       <main id="main-content">
         <ProjectsSection />
       </main>

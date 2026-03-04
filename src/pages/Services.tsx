@@ -28,7 +28,7 @@ export default function Services() {
   return (
     <div className="bg-background text-foreground min-h-screen">
       <Navbar />
-      <PageHero />
+      <PageHero title="Servicii" />
       <main id="main-content">
         <ServicesSection />
       </main>

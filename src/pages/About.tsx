@@ -31,7 +31,7 @@ export default function About() {
   return (
     <div className="bg-background text-foreground min-h-screen">
       <Navbar />
-      <PageHero />
+      <PageHero title="Despre noi" />
       <main id="main-content">
         {/* Hero */}
         <section className="pt-16 pb-16 section-padding bg-background">
