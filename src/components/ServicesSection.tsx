@@ -89,7 +89,12 @@ function ServiceRow({
           transition: "max-height 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94), padding 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)",
         }}
       >
-        <div>
+        <div
+          style={{
+            clipPath: isHovered ? "inset(0 0 0% 0)" : "inset(0 0 25% 0)",
+            transition: "clip-path 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+          }}
+        >
           <div className="flex items-baseline gap-6">
             <span className="text-sm font-medium text-muted-foreground tracking-widest font-display" style={{ position: "relative", top: "-15px" }}>
               0{index + 1}.
