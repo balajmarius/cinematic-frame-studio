@@ -31,7 +31,7 @@ export default function PageHero({ title }: PageHeroProps) {
         style={{ transform: `scale(${scale})` }}
       />
       <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-transparent via-60% to-background" aria-hidden="true" />
-      <h1 className="relative z-10 display-xl text-foreground text-center px-6 -mt-[150px]">{title}</h1>
+      <h1 className="relative z-10 display-xl text-foreground text-center px-6 -mt-[350px]">{title}</h1>
     </section>
   );
 }
