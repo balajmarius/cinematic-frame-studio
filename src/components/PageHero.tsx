@@ -1,6 +1,10 @@
 import { useRef, useState, useEffect } from "react";
 
-export default function PageHero() {
+interface PageHeroProps {
+  title: string;
+}
+
+export default function PageHero({ title }: PageHeroProps) {
   const sectionRef = useRef<HTMLDivElement>(null);
   const [scale, setScale] = useState(1);
 
@@ -19,7 +23,7 @@ export default function PageHero() {
   }, []);
 
   return (
-    <section ref={sectionRef} className="relative w-full h-screen min-h-[600px] overflow-hidden">
+    <section ref={sectionRef} className="relative w-full h-screen min-h-[600px] overflow-hidden flex items-center justify-center">
       <img
         src="/images/page-hero.webp"
         alt=""
@@ -27,6 +31,7 @@ export default function PageHero() {
         style={{ transform: `scale(${scale})` }}
       />
       <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-transparent via-60% to-background" aria-hidden="true" />
+      <h1 className="relative z-10 display-xl text-foreground text-center px-6">{title}</h1>
     </section>
   );
 }
