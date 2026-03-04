@@ -73,12 +73,12 @@ export default function About() {
         <section className="section-padding bg-background">
           <div className="container-wide">
             <div className="reveal grid grid-cols-1 lg:grid-cols-[280px_1fr] gap-12 lg:gap-20 items-start">
-              <div ref={counterRef} className="flex items-start gap-3">
-                <span className="text-[7.2rem] lg:text-[9rem] font-display font-bold leading-none text-gold">
+              <div ref={counterRef} className="flex items-end gap-3">
+                <span className="text-[7.2rem] lg:text-[9rem] font-display font-bold leading-none text-gold min-w-[180px] lg:min-w-[220px]">
                   {count}+
                 </span>
-                <span className="text-sm text-muted-foreground tracking-wide uppercase writing-mode-vertical mt-2"
-                  style={{ writingMode: "vertical-rl", textOrientation: "mixed" }}>
+                <span className="text-sm text-muted-foreground tracking-wide uppercase pb-2"
+                  style={{ writingMode: "vertical-rl", transform: "rotate(180deg)" }}>
                   Experiență
                 </span>
               </div>
