@@ -19,11 +19,11 @@ export default function PageHero() {
   }, []);
 
   return (
-    <section ref={sectionRef} className="relative w-full h-[50vh] min-h-[300px] mt-[100px] overflow-hidden">
+    <section ref={sectionRef} className="relative w-full h-[50vh] min-h-[300px] mt-[200px] overflow-hidden">
       <img
         src="/images/page-hero.webp"
         alt=""
-        className="absolute inset-0 w-full h-full object-cover transition-transform duration-100 will-change-transform"
+        className="absolute inset-0 w-full h-full object-cover object-bottom transition-transform duration-100 will-change-transform"
         style={{ transform: `scale(${scale})` }}
       />
       <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-transparent via-60% to-background" aria-hidden="true" />
