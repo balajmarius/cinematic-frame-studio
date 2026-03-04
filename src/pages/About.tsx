@@ -68,7 +68,7 @@ export default function About() {
   return (
     <div className="bg-background text-foreground min-h-screen">
       <Navbar />
-      <PageHero title="Despre noi" titleClassName="scale-90" />
+      <PageHero title="Despre noi" titleClassName="scale-[0.85]" />
       <main id="main-content">
         <section className="section-padding bg-background">
           <div className="container-wide">
