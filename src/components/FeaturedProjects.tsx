@@ -45,6 +45,7 @@ function ServiceCard({
 }) {
   const videoRef = useRef<HTMLVideoElement>(null);
   const ref = useReveal();
+  const previewStartTime = service.slug === "productie-video" ? 2 : 1;
 
   return (
     <a
@@ -52,11 +53,16 @@ function ServiceCard({
       href={`/servicii/${service.slug}`}
       className="reveal group relative block overflow-hidden bg-surface aspect-[3/4]"
       style={{ transitionDelay: `${delay}s` }}
-      onMouseEnter={() => videoRef.current?.play().catch(() => {})}
+      onMouseEnter={() => {
+        if (videoRef.current) {
+          videoRef.current.currentTime = previewStartTime;
+          videoRef.current.play().catch(() => {});
+        }
+      }}
       onMouseLeave={() => {
         if (videoRef.current) {
           videoRef.current.pause();
-          videoRef.current.currentTime = 0;
+          videoRef.current.currentTime = previewStartTime;
         }
       }}
     >
@@ -68,7 +74,7 @@ function ServiceCard({
       />
       <video
         ref={videoRef}
-        src={`${service.video}#t=1`}
+        src={`${service.video}#t=${previewStartTime}`}
         muted
         loop
         playsInline
