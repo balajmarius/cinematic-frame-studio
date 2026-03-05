@@ -23,9 +23,9 @@ export default function ServicesSection() {
 
         const moveX = normalizedX * viewportCenterX * 0.3;
         const moveY = normalizedY * viewportCenterY * 0.3;
-        const rotateY = normalizedX * 15;
+        const rotateX = normalizedX * 15;
 
-        imageRef.current!.style.transform = `translate3d(${moveX}px, ${moveY}px, 0) rotateY(${rotateY}deg)`;
+        imageRef.current!.style.transform = `translate3d(${moveX}px, ${moveY}px, 0) rotateX(${rotateX}deg)`;
       });
     };
 
