@@ -172,6 +172,7 @@ export const siteData = {
       thumbnail: "/images/placeholder-project.webp",
       video: "/lowres-dare2ride.mp4",
       lowresVideo: "/lowres-dare2ride.mp4",
+      previewStart: 0.5,
       tags: ["Content", "Sport"],
       crew: {
         "Foto / Regie": ["Petru Vlad", "Viorel Petric"],
