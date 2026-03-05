@@ -189,8 +189,8 @@ export const siteData = {
       year: null,
       category: "content",
       thumbnail: "/images/placeholder-project.webp",
-      video: null,
-      lowresVideo: null,
+      video: "/lowres-kenwood-patrizia.mp4",
+      lowresVideo: "/lowres-kenwood-patrizia.mp4",
       tags: ["Content", "Commercial"],
       crew: {
         "Foto": ["Augustin Bucur", "Petru Vlad"],
