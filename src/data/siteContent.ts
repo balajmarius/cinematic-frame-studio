@@ -352,8 +352,8 @@ export const siteData = {
       year: 2022,
       category: "content",
       thumbnail: "/images/placeholder-project.webp",
-      video: null,
-      lowresVideo: null,
+      video: "/lowres-zzzquil.mp4",
+      lowresVideo: "/lowres-zzzquil.mp4",
       tags: ["Content", "Produs"],
       crew: {
         "Montaj / Grafică": ["Petru Vlad"],
@@ -369,8 +369,8 @@ export const siteData = {
       year: null,
       category: "content",
       thumbnail: "/images/placeholder-project.webp",
-      video: null,
-      lowresVideo: null,
+      video: "/lowres-chef-aida.mp4",
+      lowresVideo: "/lowres-chef-aida.mp4",
       tags: ["Content", "Commercial"],
       crew: {
         "Foto": ["Augustin Bucur", "Petru Vlad"],
@@ -387,8 +387,8 @@ export const siteData = {
       year: 2020,
       category: "content",
       thumbnail: "/images/placeholder-project.webp",
-      video: null,
-      lowresVideo: null,
+      video: "/lowres-raiffeisen-art.mp4",
+      lowresVideo: "/lowres-raiffeisen-art.mp4",
       tags: ["Content", "Corporate"],
       crew: {
         "Montaj / Grafică": ["Petru Vlad"],
