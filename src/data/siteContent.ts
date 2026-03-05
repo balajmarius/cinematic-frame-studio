@@ -170,8 +170,8 @@ export const siteData = {
       year: 2022,
       category: "content",
       thumbnail: "/images/placeholder-project.webp",
-      video: null,
-      lowresVideo: null,
+      video: "/lowres-dare2ride.mp4",
+      lowresVideo: "/lowres-dare2ride.mp4",
       tags: ["Content", "Sport"],
       crew: {
         "Foto / Regie": ["Petru Vlad", "Viorel Petric"],
