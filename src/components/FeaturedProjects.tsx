@@ -45,7 +45,7 @@ function ServiceCard({
 }) {
   const videoRef = useRef<HTMLVideoElement>(null);
   const ref = useReveal();
-  const previewStartTime = service.slug === "productie-video" ? 2 : 1;
+  const previewStartTime = service.slug === "productie-video" ? 1.5 : 1;
 
   return (
     <a
