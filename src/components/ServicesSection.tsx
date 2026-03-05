@@ -17,7 +17,7 @@ export default function ServicesSection() {
 
       frameRef.current = requestAnimationFrame(() => {
         const viewportCenterX = window.innerWidth / 2;
-        const viewportCenterY = window.innerHeight / 2;
+        const viewportCenterY = window.innerHeight / 2 + 250;
         const normalizedX = (event.clientX - viewportCenterX) / viewportCenterX;
         const normalizedY = (event.clientY - viewportCenterY) / viewportCenterY;
 
