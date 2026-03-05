@@ -265,7 +265,7 @@ export const siteData = {
       thumbnail: "/images/placeholder-project.webp",
       video: "/lowres-noua-ne-pasa.mp4",
       lowresVideo: "/lowres-noua-ne-pasa.mp4",
-      previewStart: 3,
+      previewStart: 4,
       tags: ["Content", "Social"],
       crew: {
         "Foto": ["Petru Vlad", "Augustin Bucur", "Alin Barbu"],
