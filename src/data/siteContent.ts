@@ -246,6 +246,7 @@ export const siteData = {
       thumbnail: "/images/placeholder-project.webp",
       video: "/lowres-fara-asfalt-promo.mp4",
       lowresVideo: "/lowres-fara-asfalt-promo.mp4",
+      previewStart: 1,
       tags: ["Content", "Eveniment"],
       crew: {
         "Foto / Cinematografie": ["Petru Vlad", "Alin Barbu", "Augustin Bucur", "Marian Titirigă", "Marian Popa"],
@@ -264,6 +265,7 @@ export const siteData = {
       thumbnail: "/images/placeholder-project.webp",
       video: "/lowres-noua-ne-pasa.mp4",
       lowresVideo: "/lowres-noua-ne-pasa.mp4",
+      previewStart: 3,
       tags: ["Content", "Social"],
       crew: {
         "Foto": ["Petru Vlad", "Augustin Bucur", "Alin Barbu"],
