@@ -244,8 +244,8 @@ export const siteData = {
       year: 2018,
       category: "content",
       thumbnail: "/images/placeholder-project.webp",
-      video: null,
-      lowresVideo: null,
+      video: "/lowres-fara-asfalt-promo.mp4",
+      lowresVideo: "/lowres-fara-asfalt-promo.mp4",
       tags: ["Content", "Eveniment"],
       crew: {
         "Foto / Cinematografie": ["Petru Vlad", "Alin Barbu", "Augustin Bucur", "Marian Titirigă", "Marian Popa"],
@@ -262,8 +262,8 @@ export const siteData = {
       year: 2021,
       category: "content",
       thumbnail: "/images/placeholder-project.webp",
-      video: null,
-      lowresVideo: null,
+      video: "/lowres-noua-ne-pasa.mp4",
+      lowresVideo: "/lowres-noua-ne-pasa.mp4",
       tags: ["Content", "Social"],
       crew: {
         "Foto": ["Petru Vlad", "Augustin Bucur", "Alin Barbu"],
@@ -280,8 +280,8 @@ export const siteData = {
       year: null,
       category: "content",
       thumbnail: "/images/placeholder-project.webp",
-      video: null,
-      lowresVideo: null,
+      video: "/lowres-kenwood-printesa-urbana.mp4",
+      lowresVideo: "/lowres-kenwood-printesa-urbana.mp4",
       tags: ["Content", "Commercial"],
       crew: {
         "Foto": ["Augustin Bucur", "Petru Vlad"],
