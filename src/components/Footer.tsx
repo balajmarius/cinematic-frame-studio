@@ -12,7 +12,7 @@ export default function Footer() {
             className="h-10 object-contain mb-3"
             />
             <p className="text-xs text-muted-foreground max-w-xs leading-relaxed">
-              Producție video profesionistă în Timișoara. Creăm imagini care spun povești.
+              Tu vii cu ideea, noi îi dăm formă și vizibilitate.
             </p>
           </div>
 
