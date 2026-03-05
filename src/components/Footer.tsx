@@ -9,7 +9,7 @@ export default function Footer() {
             <img
               src={siteData.logo}
               alt={siteData.name}
-            className="h-10 object-contain mb-3"
+              className="h-[3.3rem] object-contain mb-3"
             />
             <p className="text-xs text-muted-foreground max-w-xs leading-relaxed">
               Producție video profesionistă în Timișoara.
