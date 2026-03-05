@@ -11,11 +11,16 @@ function ProjectCard({ project }: { project: Project }) {
     <a
       href={`/portofoliu/${project.slug}`}
       className="group relative block rounded-xl overflow-hidden bg-surface border border-border focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-background"
-      onMouseEnter={() => videoRef.current?.play().catch(() => {})}
+      onMouseEnter={() => {
+        if (videoRef.current) {
+          videoRef.current.currentTime = project.previewStart ?? 0;
+          videoRef.current.play().catch(() => {});
+        }
+      }}
       onMouseLeave={() => {
         if (videoRef.current) {
           videoRef.current.pause();
-          videoRef.current.currentTime = 0;
+          videoRef.current.currentTime = project.previewStart ?? 0;
         }
       }}
     >
@@ -36,6 +41,11 @@ function ProjectCard({ project }: { project: Project }) {
             preload="metadata"
             aria-hidden="true"
             className="absolute inset-0 w-full h-full object-cover"
+            onLoadedMetadata={() => {
+              if (videoRef.current) {
+                videoRef.current.currentTime = project.previewStart ?? 0;
+              }
+            }}
           />
         )}
       </div>
