@@ -24,15 +24,20 @@ export default function PageHero({ title, titleClassName }: PageHeroProps) {
   }, []);
 
   return (
-    <section ref={sectionRef} className="relative w-full h-screen min-h-[600px] overflow-hidden flex items-center justify-center">
+    <section
+      ref={sectionRef}
+      className="relative flex w-full min-h-[420px] h-[clamp(420px,72vh,920px)] items-center justify-center overflow-hidden"
+    >
       <img
         src="/images/page-hero.webp"
         alt=""
-        className="absolute inset-0 w-full h-full object-cover transition-transform duration-100 will-change-transform"
+        className="absolute inset-0 h-full w-full object-cover transition-transform duration-100 will-change-transform"
         style={{ transform: `scale(${scale})` }}
       />
       <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-transparent via-60% to-background" aria-hidden="true" />
-      <h1 className={`relative z-10 display-xl text-foreground text-center px-6 -mt-[350px] ${titleClassName || ""}`}>{title}</h1>
+      <h1 className={`relative z-10 px-6 text-center text-foreground -translate-y-[18%] sm:-translate-y-[22%] md:-translate-y-[26%] display-xl ${titleClassName || ""}`}>
+        {title}
+      </h1>
     </section>
   );
 }
