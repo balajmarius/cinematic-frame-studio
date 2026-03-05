@@ -300,8 +300,8 @@ export const siteData = {
       year: 2021,
       category: "content",
       thumbnail: "/images/placeholder-project.webp",
-      video: null,
-      lowresVideo: null,
+      video: "/lowres-braun-seria-9.mp4",
+      lowresVideo: "/lowres-braun-seria-9.mp4",
       tags: ["Content", "Produs"],
       crew: {
         "Montaj / Grafică": ["Petru Vlad"],
@@ -317,8 +317,8 @@ export const siteData = {
       year: 2021,
       category: "content",
       thumbnail: "/images/placeholder-project.webp",
-      video: null,
-      lowresVideo: null,
+      video: "/lowres-braun-hybrid-shaver.mp4",
+      lowresVideo: "/lowres-braun-hybrid-shaver.mp4",
       tags: ["Content", "Produs"],
       crew: {
         "Montaj / Grafică": ["Petru Vlad"],
@@ -334,8 +334,8 @@ export const siteData = {
       year: 2024,
       category: "content",
       thumbnail: "/images/placeholder-project.webp",
-      video: null,
-      lowresVideo: null,
+      video: "/lowres-noua-ne-pasa-granturi.mp4",
+      lowresVideo: "/lowres-noua-ne-pasa-granturi.mp4",
       tags: ["Content", "Social"],
       crew: {
         "Foto": ["Petru Vlad", "Laurențiu Suchici"],
