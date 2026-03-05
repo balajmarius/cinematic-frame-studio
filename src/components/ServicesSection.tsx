@@ -23,15 +23,15 @@ export default function ServicesSection() {
 
         const moveX = normalizedX * viewportCenterX * 0.3;
         const moveY = normalizedY * viewportCenterY * 0.3;
-        const rotateX = normalizedX * 15;
+        const rotateZ = normalizedX * 15;
 
-        imageRef.current!.style.transform = `translate3d(${moveX}px, ${moveY}px, 0) rotateX(${rotateX}deg)`;
+        imageRef.current!.style.transform = `translate3d(${moveX}px, ${moveY}px, 0) rotateZ(${rotateZ}deg)`;
       });
     };
 
     const resetPreview = () => {
       if (!imageRef.current) return;
-      imageRef.current.style.transform = "translate3d(0, 0, 0) rotateY(0deg)";
+      imageRef.current.style.transform = "translate3d(0, 0, 0) rotateZ(0deg)";
     };
 
     window.addEventListener("mousemove", handleMouseMove);
@@ -69,7 +69,9 @@ export default function ServicesSection() {
           <div className="hidden lg:block sticky top-32 [perspective:1400px]">
             <div
               ref={imageRef}
-              className="relative aspect-[4/3] w-full max-w-[320px] rounded-xl overflow-hidden bg-surface will-change-transform transition-transform duration-200 ease-out"
+              className={`relative aspect-[4/3] w-full max-w-[320px] rounded-xl overflow-hidden bg-surface will-change-transform transition-all duration-300 ease-out ${
+                hoveredIndex !== null ? "opacity-100" : "opacity-0 pointer-events-none"
+              }`}
             >
               {siteData.services.map((service, i) => (
                 <img
@@ -81,13 +83,6 @@ export default function ServicesSection() {
                   }`}
                 />
               ))}
-              {hoveredIndex === null && (
-                <img
-                  src={siteData.services[0].thumbnail}
-                  alt={siteData.services[0].title}
-                  className="absolute inset-0 w-full h-full object-cover"
-                />
-              )}
             </div>
           </div>
         </div>
