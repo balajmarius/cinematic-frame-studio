@@ -69,7 +69,7 @@ export default function ServicesSection() {
           <div className="hidden lg:block sticky top-32 [perspective:1400px]">
             <div
               ref={imageRef}
-              className={`relative aspect-[4/3] w-full max-w-[320px] rounded-xl overflow-hidden bg-surface will-change-transform transition-all duration-300 ease-out ${
+              className={`relative -ml-[200px] aspect-[4/3] w-full max-w-[320px] rounded-xl overflow-hidden bg-surface will-change-transform transition-all duration-300 ease-out ${
                 hoveredIndex !== null ? "opacity-100" : "opacity-0 pointer-events-none"
               }`}
             >
