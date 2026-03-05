@@ -209,6 +209,7 @@ export const siteData = {
       thumbnail: "/images/about.webp",
       video: "/project-6.mp4",
       lowresVideo: "/lowres-project-6.mp4",
+      previewStart: 0.5,
       tags: ["Content", "Eveniment"],
       crew: {
         "Montaj / Grafică": ["Petru Vlad"],
@@ -226,6 +227,7 @@ export const siteData = {
       thumbnail: "/images/project-8.webp",
       video: "/project-8.mp4",
       lowresVideo: "/lowres-project-8.mp4",
+      previewStart: 0.5,
       tags: ["Content", "Corporate"],
       crew: {
         "Concept": ["Felicia Moga"],
