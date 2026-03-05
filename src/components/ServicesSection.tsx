@@ -22,7 +22,7 @@ export default function ServicesSection() {
         const normalizedY = (event.clientY - viewportCenterY) / viewportCenterY;
 
         const moveX = normalizedX * viewportCenterX * 0.3;
-        const moveY = normalizedY * viewportCenterY * 0.3;
+        const moveY = event.clientY - viewportCenterY;
         const rotateZ = normalizedX * 15;
 
         imageRef.current!.style.transform = `translate3d(${moveX}px, ${moveY}px, 0) rotateZ(${rotateZ}deg)`;
