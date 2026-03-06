@@ -134,11 +134,6 @@ export default function Project() {
                     </div>
                   ))}
                 </div>
-                <div className="mt-12">
-                  <a href="/contact" className="btn-primary">
-                    Solicită o ofertă
-                  </a>
-                </div>
               </div>
             </div>
           </section>
