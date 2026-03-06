@@ -122,11 +122,6 @@ export default function Service() {
                 </div>
 
                 {/* CTA */}
-                <div className="reveal mt-12">
-                  <a href="/contact" className="btn-primary">
-                    Solicită o ofertă
-                  </a>
-                </div>
               </div>
             </div>
           </div>
