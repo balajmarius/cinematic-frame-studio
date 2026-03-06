@@ -23,10 +23,10 @@ export default function ContactSection() {
             <span className="label-tag mb-4 block">Contact</span>
             <div className="divider-line mb-8" />
             <h2 className="display-lg text-foreground mb-6">
-              Hai să creăm ceva împreună.
+              Fiecare proiect începe cu o conversație.
             </h2>
             <p className="text-muted-foreground mb-12 leading-relaxed">
-              Fie că ai un proiect concret sau ești la stadiul de idee — suntem bucuroși să ascultăm.
+              Fie că ai un proiect concret sau ești la stadiul de idee, suntem bucuroși să venim cu o perspectivă creativă.
             </p>
 
             <div className="flex flex-col gap-6">
