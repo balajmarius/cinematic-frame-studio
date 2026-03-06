@@ -586,7 +586,7 @@ export const siteData = {
 
   contact: {
     email: "contact@pertufilm.com",
-    phone: "+40 700 000 000",
+    phone: "+40 723 914 000",
     address: "Timișoara, România",
     cta: "Hai să creăm ceva împreună.",
   },
