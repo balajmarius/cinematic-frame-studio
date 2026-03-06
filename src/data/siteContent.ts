@@ -170,7 +170,7 @@ export const siteData = {
       year: 2022,
       category: "content",
       thumbnail: "/images/placeholder-project.webp",
-      video: "/lowres-dare2ride.mp4",
+      video: "/dare2ride.mp4",
       lowresVideo: "/lowres-dare2ride.mp4",
       previewStart: 0.5,
       tags: ["Content", "Sport"],
