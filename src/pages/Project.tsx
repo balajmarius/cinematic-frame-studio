@@ -48,10 +48,9 @@ export default function Project() {
   return (
     <div className="bg-background text-foreground min-h-screen">
       <Navbar />
-      <PageHero title={project.title} />
       <main id="main-content">
         {/* Hero */}
-        <section className="pt-16 pb-16 section-padding bg-background">
+        <section className="pt-32 pb-16 section-padding bg-background">
           <div className="container-wide">
             <div className="reveal">
               <a
@@ -100,10 +99,9 @@ export default function Project() {
               {project.video ? (
                 <video
                   ref={videoRef}
-                  src={project.video}
+                  src={`${project.video}#t=1`}
                   controls
                   preload="metadata"
-                  poster={project.thumbnail}
                   className="w-full h-full object-cover"
                 />
               ) : (
