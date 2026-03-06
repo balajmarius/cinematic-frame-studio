@@ -302,6 +302,7 @@ export const siteData = {
       thumbnail: "/images/placeholder-project.webp",
       video: "/lowres-braun-seria-9.mp4",
       lowresVideo: "/lowres-braun-seria-9.mp4",
+      previewStart: 2,
       tags: ["Content", "Produs"],
       crew: {
         "Montaj / Grafică": ["Petru Vlad"],
@@ -406,6 +407,7 @@ export const siteData = {
       thumbnail: "/images/placeholder-project.webp",
       video: "/lowres-urgent-cargus.mp4",
       lowresVideo: "/lowres-urgent-cargus.mp4",
+      previewStart: 2,
       tags: ["Content", "Corporate"],
       crew: {
         "Foto": ["Petru Vlad", "Alin Barbu"],
@@ -424,6 +426,7 @@ export const siteData = {
       thumbnail: "/images/placeholder-project.webp",
       video: "/lowres-noua-ne-pasa-bratianu.mp4",
       lowresVideo: "/lowres-noua-ne-pasa-bratianu.mp4",
+      previewStart: 2,
       tags: ["Content", "Social"],
       crew: {
         "Foto": ["Petru Vlad", "Augustin Bucur"],
@@ -459,6 +462,7 @@ export const siteData = {
       thumbnail: "/images/placeholder-project.webp",
       video: "/lowres-emag-ungaria.mp4",
       lowresVideo: "/lowres-emag-ungaria.mp4",
+      previewStart: 2,
       tags: ["Content", "Commercial"],
       crew: {
         "Foto": ["Petru Vlad"],
