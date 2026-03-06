@@ -404,8 +404,8 @@ export const siteData = {
       year: 2018,
       category: "content",
       thumbnail: "/images/placeholder-project.webp",
-      video: null,
-      lowresVideo: null,
+      video: "/lowres-urgent-cargus.mp4",
+      lowresVideo: "/lowres-urgent-cargus.mp4",
       tags: ["Content", "Corporate"],
       crew: {
         "Foto": ["Petru Vlad", "Alin Barbu"],
@@ -422,8 +422,8 @@ export const siteData = {
       year: 2018,
       category: "content",
       thumbnail: "/images/placeholder-project.webp",
-      video: null,
-      lowresVideo: null,
+      video: "/lowres-noua-ne-pasa-bratianu.mp4",
+      lowresVideo: "/lowres-noua-ne-pasa-bratianu.mp4",
       tags: ["Content", "Social"],
       crew: {
         "Foto": ["Petru Vlad", "Augustin Bucur"],
@@ -457,8 +457,8 @@ export const siteData = {
       year: 2015,
       category: "content",
       thumbnail: "/images/placeholder-project.webp",
-      video: null,
-      lowresVideo: null,
+      video: "/lowres-emag-ungaria.mp4",
+      lowresVideo: "/lowres-emag-ungaria.mp4",
       tags: ["Content", "Commercial"],
       crew: {
         "Foto": ["Petru Vlad"],
