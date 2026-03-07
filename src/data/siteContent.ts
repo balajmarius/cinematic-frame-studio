@@ -318,7 +318,7 @@ export const siteData = {
       year: 2021,
       category: "content",
       thumbnail: "/images/placeholder-project.webp",
-      video: "/lowres-braun-hybrid-shaver.mp4",
+      video: "/braun-hybrid-shaver.mp4",
       lowresVideo: "/lowres-braun-hybrid-shaver.mp4",
       tags: ["Content", "Produs"],
       crew: {
