@@ -511,7 +511,7 @@ export const siteData = {
       category: "after movie",
       thumbnail: "/images/placeholder-project.webp",
       video: "/raiffeisen-catalizator.mp4",
-      lowresVideo: null,
+      lowresVideo: "/raiffeisen-catalizator.mp4",
       tags: ["After Movie", "Corporate"],
       crew: {},
     },
