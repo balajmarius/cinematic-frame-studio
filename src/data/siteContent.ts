@@ -300,7 +300,7 @@ export const siteData = {
       year: 2021,
       category: "content",
       thumbnail: "/images/placeholder-project.webp",
-      video: "/lowres-braun-seria-9.mp4",
+      video: "/braun-seria-9.mp4",
       lowresVideo: "/lowres-braun-seria-9.mp4",
       previewStart: 2,
       tags: ["Content", "Produs"],
