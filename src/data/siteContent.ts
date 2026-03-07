@@ -552,7 +552,7 @@ export const siteData = {
       year: null,
       category: "after movie",
       thumbnail: "/images/placeholder-project.webp",
-      video: null,
+      video: "/fara-asfalt-2023.mp4",
       lowresVideo: null,
       tags: ["After Movie", "Eveniment"],
       crew: {},
