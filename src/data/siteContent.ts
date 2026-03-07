@@ -539,7 +539,7 @@ export const siteData = {
       category: "after movie",
       thumbnail: "/images/placeholder-project.webp",
       video: "/honeywell.mp4",
-      lowresVideo: null,
+      lowresVideo: "/honeywell.mp4",
       tags: ["After Movie", "Corporate"],
       crew: {},
     },
