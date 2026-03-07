@@ -244,7 +244,7 @@ export const siteData = {
       year: 2018,
       category: "content",
       thumbnail: "/images/placeholder-project.webp",
-      video: "/lowres-fara-asfalt-promo.mp4",
+      video: "/fara-asfalt-promo.mp4",
       lowresVideo: "/lowres-fara-asfalt-promo.mp4",
       previewStart: 1,
       tags: ["Content", "Eveniment"],
