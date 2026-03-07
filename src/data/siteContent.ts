@@ -497,7 +497,7 @@ export const siteData = {
       category: "after movie",
       thumbnail: "/images/placeholder-project.webp",
       video: "/pg.mp4",
-      lowresVideo: null,
+      lowresVideo: "/pg.mp4",
       tags: ["After Movie", "Corporate"],
       crew: {},
     },
