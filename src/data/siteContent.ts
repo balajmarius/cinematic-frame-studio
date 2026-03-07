@@ -460,7 +460,7 @@ export const siteData = {
       year: 2015,
       category: "content",
       thumbnail: "/images/placeholder-project.webp",
-      video: "/lowres-emag-ungaria.mp4",
+      video: "/emag-ungaria.mp4",
       lowresVideo: "/lowres-emag-ungaria.mp4",
       previewStart: 2,
       tags: ["Content", "Commercial"],
