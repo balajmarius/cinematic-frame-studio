@@ -353,7 +353,7 @@ export const siteData = {
       year: 2022,
       category: "content",
       thumbnail: "/images/placeholder-project.webp",
-      video: "/lowres-zzzquil.mp4",
+      video: "/zzzquil.mp4",
       lowresVideo: "/lowres-zzzquil.mp4",
       tags: ["Content", "Produs"],
       crew: {
