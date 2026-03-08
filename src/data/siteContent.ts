@@ -197,7 +197,7 @@ export const siteData = {
       crew: {
         "Foto": ["Augustin Bucur", "Petru Vlad"],
         "Editare video și Grafică": ["Petru Vlad"],
-        "Sound Design": ["Gabriel Rizescu"],
+        "Sunet": ["Gabriel Rizescu"],
       },
     },
     {
@@ -293,7 +293,7 @@ export const siteData = {
       crew: {
         "Foto": ["Augustin Bucur", "Petru Vlad"],
         "Editare video și Grafică": ["Petru Vlad"],
-        "Sound Design": ["Gabriel Rizescu"],
+        "Sunet": ["Gabriel Rizescu"],
       },
     },
     {
