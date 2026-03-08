@@ -327,7 +327,7 @@ export const siteData = {
       lowresVideo: "/lowres-braun-hybrid-shaver.mp4",
       tags: ["Content", "Produs"],
       crew: {
-        "Montaj / Grafică": ["Petru Vlad"],
+        "Editare video și Grafică": ["Petru Vlad"],
         "Producție": ["Cristina Bolohan"],
       },
     },
