@@ -630,6 +630,20 @@ export const siteData = {
       muted: true,
       crew: {},
     },
+    {
+      id: 33,
+      title: "Conferința Ursus",
+      slug: "conferinta-ursus",
+      client: "Grafică eveniment",
+      agency: null,
+      year: 2018,
+      category: "evenimente",
+      thumbnail: "/images/ursus-2018.jpg",
+      video: null,
+      lowresVideo: null,
+      tags: ["Evenimente"],
+      crew: {},
+    },
   ],
 
   clients: [
