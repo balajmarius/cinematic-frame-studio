@@ -30,6 +30,18 @@ export default function Projects() {
     return () => observer.disconnect();
   }, []);
 
+  useEffect(() => {
+    if (location.hash) {
+      const id = location.hash.replace("#", "");
+      setTimeout(() => {
+        const el = document.getElementById(id);
+        if (el) {
+          el.scrollIntoView({ behavior: "smooth", block: "center" });
+        }
+      }, 300);
+    }
+  }, [location.hash]);
+
   return (
     <div className="bg-background text-foreground min-h-screen">
       <Navbar />
