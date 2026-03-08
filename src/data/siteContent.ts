@@ -210,6 +210,7 @@ export const siteData = {
       category: "content",
       thumbnail: "/images/about.webp",
       video: "/project-6.mp4",
+      vimeoUrl: "https://player.vimeo.com/video/1171471880",
       lowresVideo: "/lowres-project-6.mp4",
       previewStart: 0.5,
       tags: ["Content", "Eveniment"],
