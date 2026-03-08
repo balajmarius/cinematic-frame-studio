@@ -6,6 +6,8 @@ import Footer from "@/components/Footer";
 import { usePageMeta } from "@/hooks/usePageMeta";
 
 export default function Projects() {
+  const location = useLocation();
+
   usePageMeta({
     title: "Portofoliu",
     description: "Descoperă proiectele noastre — filmări corporate, comerciale, after movie și content video pentru branduri din România.",
