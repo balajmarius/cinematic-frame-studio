@@ -494,7 +494,7 @@ export const siteData = {
       tags: ["After Movie", "Eveniment"],
       crew: {
         "Foto": ["Petru Vlad", "Alin Barbu", "Marian Popa"],
-        "Montaj / Grafică": ["Petru Vlad"],
+        "Editare video și Grafică": ["Petru Vlad"],
         "Concept / Producție": ["Petru Vlad"],
       },
     },

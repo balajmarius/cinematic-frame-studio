@@ -142,7 +142,6 @@ export default function Project() {
                   {Object.entries(project.crew).map(([role, members]) => {
                     const displayRole = role
                       .replace(/\bFoto\b/g, "Imagine")
-                      .replace(/\bMontaj \/ Grafică\b/g, "Editare video și grafică")
                       .replace(/\bMontaj\b/g, "Editare video");
                     return (
                     <div key={role}>
