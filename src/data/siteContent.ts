@@ -396,6 +396,7 @@ export const siteData = {
       category: "content",
       thumbnail: "/images/placeholder-project.webp",
       video: "/lowres-raiffeisen-art.mp4",
+      vimeoUrl: "https://player.vimeo.com/video/1171471443",
       lowresVideo: "/lowres-raiffeisen-art.mp4",
       tags: ["Content", "Corporate"],
       crew: {
