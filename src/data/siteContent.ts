@@ -90,7 +90,7 @@ export const siteData = {
       tags: ["Content", "Social"],
       crew: {
         "Foto / Cinematografie": ["Petru Vlad", "Andi Popa", "Ovidiu Pelmuș"],
-        "Montaj / Grafică": ["Petru Vlad"],
+        "Editare video și Grafică": ["Petru Vlad"],
       },
     },
     {
