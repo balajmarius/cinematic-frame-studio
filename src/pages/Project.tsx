@@ -96,7 +96,15 @@ export default function Project() {
         <section className="section-padding pt-0 bg-background">
           <div className="container-wide">
             <div className="reveal relative rounded-xl overflow-hidden aspect-video bg-surface">
-              {project.video ? (
+              {'vimeoUrl' in project && (project as any).vimeoUrl ? (
+                <iframe
+                  src={`${(project as any).vimeoUrl}?autoplay=0&title=0&byline=0&portrait=0`}
+                  className="w-full h-full"
+                  frameBorder="0"
+                  allow="autoplay; fullscreen; picture-in-picture"
+                  allowFullScreen
+                />
+              ) : project.video ? (
                 <video
                   ref={videoRef}
                   src={`${project.video}#t=1`}

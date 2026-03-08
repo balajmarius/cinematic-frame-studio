@@ -85,6 +85,7 @@ export const siteData = {
       category: "content",
       thumbnail: "/images/project-5.webp",
       video: "/project-5.mp4",
+      vimeoUrl: "https://player.vimeo.com/video/1171470119",
       lowresVideo: "/lowres-project-5.mp4",
       tags: ["Content", "Social"],
       crew: {
