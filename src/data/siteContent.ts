@@ -591,7 +591,7 @@ export const siteData = {
       id: 30,
       title: "Casa Timiș",
       slug: "casa-timis",
-      client: "Video Mapping",
+      client: "Video mapping",
       agency: null,
       year: null,
       category: "evenimente",
