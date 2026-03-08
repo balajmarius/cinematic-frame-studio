@@ -177,7 +177,7 @@ export const siteData = {
       tags: ["Content", "Sport"],
       crew: {
         "Foto / Regie": ["Petru Vlad", "Viorel Petric"],
-        "Montaj / Grafică": ["Petru Vlad"],
+        "Editare video și Grafică": ["Petru Vlad"],
         "Producție": ["Alex Diaconu", "Petru Vlad"],
       },
     },
