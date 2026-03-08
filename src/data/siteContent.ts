@@ -644,6 +644,20 @@ export const siteData = {
       tags: ["Evenimente"],
       crew: {},
     },
+    {
+      id: 34,
+      title: "AHK",
+      slug: "ahk",
+      client: "Grafică eveniment",
+      agency: null,
+      year: null,
+      category: "evenimente",
+      thumbnail: "/images/ahk.jpg",
+      video: null,
+      lowresVideo: null,
+      tags: ["Evenimente"],
+      crew: {},
+    },
   ],
 
   clients: [
