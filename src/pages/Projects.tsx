@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import Navbar from "@/components/Navbar";
+import { useLocation } from "react-router-dom";
 import PageHero from "@/components/PageHero";
 import ProjectsSection from "@/components/ProjectsSection";
 import Footer from "@/components/Footer";
