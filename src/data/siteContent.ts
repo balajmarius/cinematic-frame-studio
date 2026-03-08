@@ -363,7 +363,7 @@ export const siteData = {
       lowresVideo: "/lowres-zzzquil.mp4",
       tags: ["Content", "Produs"],
       crew: {
-        "Montaj / Grafică": ["Petru Vlad"],
+        "Editare video și Grafică": ["Petru Vlad"],
         "Producție": ["Bianca Lica"],
       },
     },
