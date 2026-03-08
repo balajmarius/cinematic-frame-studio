@@ -9,6 +9,7 @@ import { usePageMeta } from "@/hooks/usePageMeta";
 
 export default function Project() {
   const { slug } = useParams();
+  const navigate = useNavigate();
   const videoRef = useRef<HTMLVideoElement>(null);
 
   const project = siteData.projects.find((p) => p.slug === slug);
