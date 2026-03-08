@@ -383,7 +383,7 @@ export const siteData = {
       crew: {
         "Foto": ["Augustin Bucur", "Petru Vlad"],
         "Montaj / Grafică": ["Petru Vlad"],
-        "Sound": ["Gabriel Rizescu"],
+        "Sunet": ["Gabriel Rizescu"],
       },
     },
     {
