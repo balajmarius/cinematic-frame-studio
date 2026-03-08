@@ -215,7 +215,7 @@ export const siteData = {
       previewStart: 0.5,
       tags: ["Content", "Eveniment"],
       crew: {
-        "Montaj / Grafică": ["Petru Vlad"],
+        "Editare video și Grafică": ["Petru Vlad"],
         "Concept": ["Adriana Ruxandescu", "Petru Vlad"],
       },
     },
