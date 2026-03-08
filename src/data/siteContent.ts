@@ -235,7 +235,7 @@ export const siteData = {
       crew: {
         "Concept": ["Felicia Moga"],
         "Foto": ["Petru Vlad"],
-        "Montaj / Grafică": ["Petru Vlad"],
+        "Editare video și Grafică": ["Petru Vlad"],
       },
     },
     {
