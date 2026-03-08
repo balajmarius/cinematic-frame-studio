@@ -53,7 +53,7 @@ function ProjectCard({ project }: { project: Project }) {
       </div>
 
       <div className="p-4">
-        <p className="text-xs text-muted-foreground mb-1">{project.client || "Proiect personal"}</p>
+        {project.client && <p className="text-xs text-muted-foreground mb-1">{project.client}</p>}
         <h3 className="font-display font-semibold text-foreground group-hover:text-gold transition-colors duration-200">
           {project.title}
         </h3>
