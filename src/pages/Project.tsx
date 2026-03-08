@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import { useParams, Navigate } from "react-router-dom";
+import { useParams, Navigate, useNavigate } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import PageHero from "@/components/PageHero";
