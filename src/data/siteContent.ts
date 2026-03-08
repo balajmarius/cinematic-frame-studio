@@ -605,7 +605,7 @@ export const siteData = {
       id: 31,
       title: "Ateneu",
       slug: "ateneu",
-      client: null,
+      client: "Video Mapping",
       agency: null,
       year: null,
       category: "evenimente",
