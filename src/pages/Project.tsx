@@ -57,7 +57,7 @@ export default function Project() {
               <button
                 onClick={(e) => {
                   e.preventDefault();
-                  navigate(`/portofoliu#project-${slug}`);
+                  navigate(`/portofoliu?cat=${encodeURIComponent(project.category)}#project-${slug}`);
                 }}
                 className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors duration-200 mb-8"
               >

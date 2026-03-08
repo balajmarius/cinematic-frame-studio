@@ -63,9 +63,13 @@ function ProjectCard({ project }: { project: Project }) {
 }
 
 export default function ProjectsSection() {
-  const [activeCategory, setActiveCategory] = useState(siteData.categories[0]);
+  const [searchParams] = useSearchParams();
+  const catParam = searchParams.get("cat");
+  const initialCat = siteData.categories.find(c => c.toLowerCase() === catParam?.toLowerCase()) || siteData.categories[0];
+  
+  const [activeCategory, setActiveCategory] = useState(initialCat);
   const [animating, setAnimating] = useState(false);
-  const [displayedCategory, setDisplayedCategory] = useState(siteData.categories[0]);
+  const [displayedCategory, setDisplayedCategory] = useState(initialCat);
   const ref = useReveal();
 
   const filtered = siteData.projects.filter((p) => p.category === displayedCategory.toLowerCase());
