@@ -377,7 +377,7 @@ export const siteData = {
       category: "content",
       thumbnail: "/images/placeholder-project.webp",
       video: "/lowres-chef-aida.mp4",
-      vimeoUrl: "https://player.vimeo.com/video/11714713560",
+      vimeoUrl: "https://player.vimeo.com/video/1171471356",
       lowresVideo: "/lowres-chef-aida.mp4",
       tags: ["Content", "Commercial"],
       crew: {
