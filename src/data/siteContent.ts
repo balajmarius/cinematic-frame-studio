@@ -266,6 +266,7 @@ export const siteData = {
       category: "content",
       thumbnail: "/images/placeholder-project.webp",
       video: "/lowres-noua-ne-pasa.mp4",
+      vimeoUrl: "https://player.vimeo.com/video/1171471186",
       lowresVideo: "/lowres-noua-ne-pasa.mp4",
       previewStart: 4,
       tags: ["Content", "Social"],
