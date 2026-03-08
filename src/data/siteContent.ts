@@ -253,7 +253,7 @@ export const siteData = {
       tags: ["Content", "Eveniment"],
       crew: {
         "Foto / Cinematografie": ["Petru Vlad", "Alin Barbu", "Augustin Bucur", "Marian Titirigă", "Marian Popa"],
-        "Montaj / Grafică": ["Petru Vlad"],
+        "Editare video și Grafică": ["Petru Vlad"],
         "Concept / Producție": ["Petru Vlad"],
       },
     },
