@@ -619,7 +619,7 @@ export const siteData = {
       id: 32,
       title: "Primăria Sector 1",
       slug: "primaria-sector-1",
-      client: null,
+      client: "Video Mapping",
       agency: null,
       year: null,
       category: "evenimente",
