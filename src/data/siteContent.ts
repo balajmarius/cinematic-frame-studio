@@ -434,6 +434,7 @@ export const siteData = {
       category: "content",
       thumbnail: "/images/placeholder-project.webp",
       video: "/lowres-noua-ne-pasa-bratianu.mp4",
+      vimeoUrl: "https://player.vimeo.com/video/1171470087",
       lowresVideo: "/lowres-noua-ne-pasa-bratianu.mp4",
       previewStart: 2,
       tags: ["Content", "Social"],
