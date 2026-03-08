@@ -495,7 +495,7 @@ export const siteData = {
       crew: {
         "Foto": ["Petru Vlad", "Alin Barbu", "Marian Popa"],
         "Editare video și Grafică": ["Petru Vlad"],
-        "Concept / Producție": ["Petru Vlad"],
+        "Concept și Producție": ["Petru Vlad"],
       },
     },
     {
