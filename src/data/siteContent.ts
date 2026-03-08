@@ -420,7 +420,7 @@ export const siteData = {
       tags: ["Content", "Corporate"],
       crew: {
         "Foto": ["Petru Vlad", "Alin Barbu"],
-        "Montaj / Grafică": ["Petru Vlad"],
+        "Editare video și Grafică": ["Petru Vlad"],
         "Producție": ["Felicia Moga", "Petru Vlad"],
       },
     },
