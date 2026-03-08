@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import PageHero from "@/components/PageHero";
 import ProjectsSection from "@/components/ProjectsSection";
@@ -6,6 +7,8 @@ import Footer from "@/components/Footer";
 import { usePageMeta } from "@/hooks/usePageMeta";
 
 export default function Projects() {
+  const location = useLocation();
+
   usePageMeta({
     title: "Portofoliu",
     description: "Descoperă proiectele noastre — filmări corporate, comerciale, after movie și content video pentru branduri din România.",
@@ -27,6 +30,18 @@ export default function Projects() {
     els.forEach((el) => observer.observe(el));
     return () => observer.disconnect();
   }, []);
+
+  useEffect(() => {
+    if (location.hash) {
+      const id = location.hash.replace("#", "");
+      setTimeout(() => {
+        const el = document.getElementById(id);
+        if (el) {
+          el.scrollIntoView({ behavior: "smooth", block: "center" });
+        }
+      }, 300);
+    }
+  }, [location.hash]);
 
   return (
     <div className="bg-background text-foreground min-h-screen">

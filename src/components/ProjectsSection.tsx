@@ -9,6 +9,7 @@ function ProjectCard({ project }: { project: Project }) {
 
   return (
     <a
+      id={`project-${project.slug}`}
       href={`/portofoliu/${project.slug}`}
       className="group relative block rounded-xl overflow-hidden bg-surface border border-border focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-background"
       onMouseEnter={() => {

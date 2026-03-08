@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import { useParams, Navigate } from "react-router-dom";
+import { useParams, Navigate, useNavigate } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import PageHero from "@/components/PageHero";
@@ -9,6 +9,7 @@ import { usePageMeta } from "@/hooks/usePageMeta";
 
 export default function Project() {
   const { slug } = useParams();
+  const navigate = useNavigate();
   const videoRef = useRef<HTMLVideoElement>(null);
 
   const project = siteData.projects.find((p) => p.slug === slug);
@@ -53,13 +54,16 @@ export default function Project() {
         <section className="pt-32 pb-16 section-padding bg-background">
           <div className="container-wide">
             <div className="reveal">
-              <a
-                href="/portofoliu"
+              <button
+                onClick={(e) => {
+                  e.preventDefault();
+                  navigate(`/portofoliu#project-${slug}`);
+                }}
                 className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors duration-200 mb-8"
               >
                 <ArrowLeft size={14} />
                 Toate proiectele
-              </a>
+              </button>
               <h1 className="display-lg text-foreground max-w-3xl">
                 {project.title}
               </h1>
