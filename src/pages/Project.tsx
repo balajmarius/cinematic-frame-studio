@@ -60,7 +60,7 @@ export default function Project() {
                 <ArrowLeft size={14} />
                 Toate proiectele
               </a>
-              <h1 className="display-xl text-foreground max-w-3xl">
+              <h1 className="display-lg text-foreground max-w-3xl">
                 {project.title}
               </h1>
 
@@ -130,17 +130,23 @@ export default function Project() {
               <div className="reveal">
                 <span className="label-tag mb-4 block">Echipa</span>
                 <div className="divider-line mb-8" />
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                  {Object.entries(project.crew).map(([role, members]) => (
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                  {Object.entries(project.crew).map(([role, members]) => {
+                    const displayRole = role
+                      .replace(/\bFoto\b/g, "Imagine")
+                      .replace(/\bMontaj \/ Grafică\b/g, "Editare video și grafică")
+                      .replace(/\bMontaj\b/g, "Editare video");
+                    return (
                     <div key={role}>
                       <span className="text-xs text-muted-foreground uppercase tracking-wider block mb-1.5">
-                        {role}
+                        {displayRole}
                       </span>
                       <p className="text-foreground text-sm">
                         {(members as string[]).join(", ")}
                       </p>
                     </div>
-                  ))}
+                    );
+                  })}
                 </div>
               </div>
             </div>
