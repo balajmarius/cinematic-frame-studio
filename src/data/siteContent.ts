@@ -287,6 +287,7 @@ export const siteData = {
       category: "content",
       thumbnail: "/images/placeholder-project.webp",
       video: "/lowres-kenwood-printesa-urbana.mp4",
+      vimeoUrl: "https://player.vimeo.com/video/1171471266",
       lowresVideo: "/lowres-kenwood-printesa-urbana.mp4",
       tags: ["Content", "Commercial"],
       crew: {
