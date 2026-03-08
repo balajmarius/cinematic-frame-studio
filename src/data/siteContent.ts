@@ -567,6 +567,7 @@ export const siteData = {
       category: "after movie",
       thumbnail: "/images/placeholder-project.webp",
       video: "/fara-asfalt-2023.mp4",
+      youtubeUrl: "https://www.youtube.com/embed/WXE3Bk_-mPo",
       lowresVideo: "/fara-asfalt-2023.mp4",
       tags: ["After Movie", "Eveniment"],
       crew: {},
