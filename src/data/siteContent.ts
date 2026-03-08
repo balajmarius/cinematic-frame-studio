@@ -90,7 +90,7 @@ export const siteData = {
       tags: ["Content", "Social"],
       crew: {
         "Foto / Cinematografie": ["Petru Vlad", "Andi Popa", "Ovidiu Pelmuș"],
-        "Montaj / Grafică": ["Petru Vlad"],
+        "Editare video și Grafică": ["Petru Vlad"],
       },
     },
     {
@@ -106,7 +106,7 @@ export const siteData = {
       lowresVideo: "/lowres-project-2.mp4",
       tags: ["Content", "Commercial"],
       crew: {
-        "Montaj / Grafică": ["Petru Vlad"],
+        "Editare video și Grafică": ["Petru Vlad"],
         "Voce": ["Miche Marcu"],
         "Producție": ["Cristina Bolohan"],
       },
@@ -124,7 +124,7 @@ export const siteData = {
       lowresVideo: "/lowres-project-1.mp4",
       tags: ["Content", "Corporate"],
       crew: {
-        "Montaj / Grafică": ["Petru Vlad"],
+        "Editare video și Grafică": ["Petru Vlad"],
         "Concept": ["Felicia Moga", "Petru Vlad"],
       },
     },
@@ -177,7 +177,7 @@ export const siteData = {
       tags: ["Content", "Sport"],
       crew: {
         "Foto / Regie": ["Petru Vlad", "Viorel Petric"],
-        "Montaj / Grafică": ["Petru Vlad"],
+        "Editare video și Grafică": ["Petru Vlad"],
         "Producție": ["Alex Diaconu", "Petru Vlad"],
       },
     },
@@ -196,7 +196,7 @@ export const siteData = {
       tags: ["Content", "Commercial"],
       crew: {
         "Foto": ["Augustin Bucur", "Petru Vlad"],
-        "Montaj / Grafică": ["Petru Vlad"],
+        "Editare video și Grafică": ["Petru Vlad"],
         "Sound Design": ["Gabriel Rizescu"],
       },
     },
@@ -215,7 +215,7 @@ export const siteData = {
       previewStart: 0.5,
       tags: ["Content", "Eveniment"],
       crew: {
-        "Montaj / Grafică": ["Petru Vlad"],
+        "Editare video și Grafică": ["Petru Vlad"],
         "Concept": ["Adriana Ruxandescu", "Petru Vlad"],
       },
     },
@@ -235,7 +235,7 @@ export const siteData = {
       crew: {
         "Concept": ["Felicia Moga"],
         "Foto": ["Petru Vlad"],
-        "Montaj / Grafică": ["Petru Vlad"],
+        "Editare video și Grafică": ["Petru Vlad"],
       },
     },
     {
@@ -253,7 +253,7 @@ export const siteData = {
       tags: ["Content", "Eveniment"],
       crew: {
         "Foto / Cinematografie": ["Petru Vlad", "Alin Barbu", "Augustin Bucur", "Marian Titirigă", "Marian Popa"],
-        "Montaj / Grafică": ["Petru Vlad"],
+        "Editare video și Grafică": ["Petru Vlad"],
         "Concept / Producție": ["Petru Vlad"],
       },
     },
@@ -273,7 +273,7 @@ export const siteData = {
       tags: ["Content", "Social"],
       crew: {
         "Foto": ["Petru Vlad", "Augustin Bucur", "Alin Barbu"],
-        "Montaj / Grafică": ["Petru Vlad"],
+        "Editare video și Grafică": ["Petru Vlad"],
         "Producție": ["Petru Vlad"],
       },
     },
@@ -292,7 +292,7 @@ export const siteData = {
       tags: ["Content", "Commercial"],
       crew: {
         "Foto": ["Augustin Bucur", "Petru Vlad"],
-        "Montaj / Grafică": ["Petru Vlad"],
+        "Editare video și Grafică": ["Petru Vlad"],
         "Sound Design": ["Gabriel Rizescu"],
       },
     },
@@ -310,7 +310,7 @@ export const siteData = {
       previewStart: 2,
       tags: ["Content", "Produs"],
       crew: {
-        "Montaj / Grafică": ["Petru Vlad"],
+        "Editare video și Grafică": ["Petru Vlad"],
         "Producție": ["Cristina Bolohan"],
       },
     },
@@ -327,7 +327,7 @@ export const siteData = {
       lowresVideo: "/lowres-braun-hybrid-shaver.mp4",
       tags: ["Content", "Produs"],
       crew: {
-        "Montaj / Grafică": ["Petru Vlad"],
+        "Editare video și Grafică": ["Petru Vlad"],
         "Producție": ["Cristina Bolohan"],
       },
     },
@@ -346,7 +346,7 @@ export const siteData = {
       tags: ["Content", "Social"],
       crew: {
         "Foto": ["Petru Vlad", "Laurențiu Suchici"],
-        "Montaj / Grafică": ["Petru Vlad"],
+        "Editare video și Grafică": ["Petru Vlad"],
         "Producție": ["Petru Vlad"],
       },
     },
@@ -363,7 +363,7 @@ export const siteData = {
       lowresVideo: "/lowres-zzzquil.mp4",
       tags: ["Content", "Produs"],
       crew: {
-        "Montaj / Grafică": ["Petru Vlad"],
+        "Editare video și Grafică": ["Petru Vlad"],
         "Producție": ["Bianca Lica"],
       },
     },
@@ -382,7 +382,7 @@ export const siteData = {
       tags: ["Content", "Commercial"],
       crew: {
         "Foto": ["Augustin Bucur", "Petru Vlad"],
-        "Montaj / Grafică": ["Petru Vlad"],
+        "Editare video și Grafică": ["Petru Vlad"],
         "Sunet": ["Gabriel Rizescu"],
       },
     },
@@ -400,7 +400,7 @@ export const siteData = {
       lowresVideo: "/lowres-raiffeisen-art.mp4",
       tags: ["Content", "Corporate"],
       crew: {
-        "Montaj / Grafică": ["Petru Vlad"],
+        "Editare video și Grafică": ["Petru Vlad"],
         "Concept": ["Felicia Moga", "Petru Vlad"],
       },
     },
@@ -420,7 +420,7 @@ export const siteData = {
       tags: ["Content", "Corporate"],
       crew: {
         "Foto": ["Petru Vlad", "Alin Barbu"],
-        "Montaj / Grafică": ["Petru Vlad"],
+        "Editare video și Grafică": ["Petru Vlad"],
         "Producție": ["Felicia Moga", "Petru Vlad"],
       },
     },
@@ -494,7 +494,7 @@ export const siteData = {
       tags: ["After Movie", "Eveniment"],
       crew: {
         "Foto": ["Petru Vlad", "Alin Barbu", "Marian Popa"],
-        "Montaj / Grafică": ["Petru Vlad"],
+        "Editare video și Grafică": ["Petru Vlad"],
         "Concept / Producție": ["Petru Vlad"],
       },
     },
