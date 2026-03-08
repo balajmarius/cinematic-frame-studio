@@ -382,7 +382,7 @@ export const siteData = {
       tags: ["Content", "Commercial"],
       crew: {
         "Foto": ["Augustin Bucur", "Petru Vlad"],
-        "Montaj / Grafică": ["Petru Vlad"],
+        "Editare video și Grafică": ["Petru Vlad"],
         "Sunet": ["Gabriel Rizescu"],
       },
     },
