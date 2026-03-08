@@ -552,6 +552,7 @@ export const siteData = {
       category: "after movie",
       thumbnail: "/images/placeholder-project.webp",
       video: "/honeywell.mp4",
+      youtubeUrl: "https://www.youtube.com/embed/3kSm9OFQgeQ",
       lowresVideo: "/honeywell.mp4",
       tags: ["After Movie", "Corporate"],
       crew: {},
