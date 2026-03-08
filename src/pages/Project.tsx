@@ -104,6 +104,14 @@ export default function Project() {
                   allow="autoplay; fullscreen; picture-in-picture"
                   allowFullScreen
                 />
+              ) : 'youtubeUrl' in project && (project as any).youtubeUrl ? (
+                <iframe
+                  src={(project as any).youtubeUrl}
+                  className="w-full h-full"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
               ) : project.video ? (
                 <video
                   ref={videoRef}
