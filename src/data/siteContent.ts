@@ -582,6 +582,7 @@ export const siteData = {
       category: "after movie",
       thumbnail: "/images/placeholder-project.webp",
       video: "/nzeb.mp4",
+      youtubeUrl: "https://www.youtube.com/embed/-44BXRN2Yj0",
       lowresVideo: "/nzeb.mp4",
       tags: ["After Movie"],
       crew: {},
