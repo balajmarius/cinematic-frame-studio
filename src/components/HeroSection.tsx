@@ -43,7 +43,7 @@ export default function HeroSection() {
     <section ref={sectionRef} className="relative w-full h-screen min-h-[600px] overflow-hidden" aria-label="Video de prezentare PertuFilm">
       <video
         ref={videoRef}
-        className="absolute inset-0 w-full h-full object-cover transition-transform duration-100 will-change-transform"
+        className="absolute inset-0 w-full h-full object-contain transition-transform duration-100 will-change-transform"
         style={{ transform: `scale(${scale})` }}
         src={siteData.hero.videoUrl}
         autoPlay
