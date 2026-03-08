@@ -124,7 +124,7 @@ export const siteData = {
       lowresVideo: "/lowres-project-1.mp4",
       tags: ["Content", "Corporate"],
       crew: {
-        "Montaj / Grafică": ["Petru Vlad"],
+        "Editare video și Grafică": ["Petru Vlad"],
         "Concept": ["Felicia Moga", "Petru Vlad"],
       },
     },
