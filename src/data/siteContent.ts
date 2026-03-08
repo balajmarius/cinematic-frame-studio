@@ -273,7 +273,7 @@ export const siteData = {
       tags: ["Content", "Social"],
       crew: {
         "Foto": ["Petru Vlad", "Augustin Bucur", "Alin Barbu"],
-        "Montaj / Grafică": ["Petru Vlad"],
+        "Editare video și Grafică": ["Petru Vlad"],
         "Producție": ["Petru Vlad"],
       },
     },
