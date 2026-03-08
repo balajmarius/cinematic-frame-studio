@@ -658,6 +658,20 @@ export const siteData = {
       tags: ["Evenimente"],
       crew: {},
     },
+    {
+      id: 35,
+      title: "Liliacul",
+      slug: "liliacul",
+      client: "Video mapping",
+      agency: null,
+      year: null,
+      category: "evenimente",
+      thumbnail: "/images/liliacul.jpeg",
+      video: null,
+      lowresVideo: null,
+      tags: ["Evenimente"],
+      crew: {},
+    },
   ],
 
   clients: [
