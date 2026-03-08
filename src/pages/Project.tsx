@@ -145,7 +145,8 @@ export default function Project() {
                         {(members as string[]).join(", ")}
                       </p>
                     </div>
-                  ))}
+                    );
+                  })}
                 </div>
               </div>
             </div>
