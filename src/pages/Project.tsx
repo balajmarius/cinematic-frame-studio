@@ -121,6 +121,7 @@ export default function Project() {
                   ref={videoRef}
                   src={`${project.video}#t=1`}
                   controls
+                  muted={'muted' in project && (project as any).muted}
                   preload="metadata"
                   className="w-full h-full object-cover"
                 />

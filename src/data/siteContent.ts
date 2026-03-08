@@ -627,6 +627,7 @@ export const siteData = {
       video: "/primaria-sector-1.mp4",
       lowresVideo: "/primaria-sector-1.mp4",
       tags: ["Evenimente"],
+      muted: true,
       crew: {},
     },
   ],
