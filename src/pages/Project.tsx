@@ -60,7 +60,7 @@ export default function Project() {
                 <ArrowLeft size={14} />
                 Toate proiectele
               </a>
-              <h1 className="display-xl text-foreground max-w-3xl">
+              <h1 className="display-lg text-foreground max-w-3xl">
                 {project.title}
               </h1>
 
