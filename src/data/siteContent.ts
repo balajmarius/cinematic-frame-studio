@@ -191,6 +191,7 @@ export const siteData = {
       category: "content",
       thumbnail: "/images/placeholder-project.webp",
       video: "/lowres-kenwood-patrizia.mp4",
+      vimeoUrl: "https://player.vimeo.com/video/1171471815",
       lowresVideo: "/lowres-kenwood-patrizia.mp4",
       tags: ["Content", "Commercial"],
       crew: {
