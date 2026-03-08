@@ -310,7 +310,7 @@ export const siteData = {
       previewStart: 2,
       tags: ["Content", "Produs"],
       crew: {
-        "Montaj / Grafică": ["Petru Vlad"],
+        "Editare video și Grafică": ["Petru Vlad"],
         "Producție": ["Cristina Bolohan"],
       },
     },
