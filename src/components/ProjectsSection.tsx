@@ -1,4 +1,5 @@
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
+import { useSearchParams } from "react-router-dom";
 import { siteData } from "@/data/siteContent";
 import { useReveal } from "@/hooks/useReveal";
 
