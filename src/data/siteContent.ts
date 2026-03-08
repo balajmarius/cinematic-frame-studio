@@ -106,7 +106,7 @@ export const siteData = {
       lowresVideo: "/lowres-project-2.mp4",
       tags: ["Content", "Commercial"],
       crew: {
-        "Montaj / Grafică": ["Petru Vlad"],
+        "Editare video și Grafică": ["Petru Vlad"],
         "Voce": ["Miche Marcu"],
         "Producție": ["Cristina Bolohan"],
       },
