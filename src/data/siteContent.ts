@@ -341,6 +341,7 @@ export const siteData = {
       category: "content",
       thumbnail: "/images/placeholder-project.webp",
       video: "/lowres-noua-ne-pasa-granturi.mp4",
+      vimeoUrl: "https://player.vimeo.com/video/1171470240",
       lowresVideo: "/lowres-noua-ne-pasa-granturi.mp4",
       tags: ["Content", "Social"],
       crew: {
