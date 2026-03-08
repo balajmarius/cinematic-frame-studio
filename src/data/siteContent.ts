@@ -478,8 +478,8 @@ export const siteData = {
       year: 2024,
       category: "after movie",
       thumbnail: "/images/placeholder-project.webp",
-      video: null,
-      lowresVideo: null,
+      video: "/fara-asfalt-2024.mp4",
+      lowresVideo: "/fara-asfalt-2024.mp4",
       tags: ["After Movie", "Eveniment"],
       crew: {
         "Foto": ["Petru Vlad", "Alin Barbu", "Marian Popa"],
