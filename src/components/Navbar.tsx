@@ -66,7 +66,7 @@ export default function Navbar() {
         {/* CTA */}
         <div className="hidden md:flex items-center">
           <a href="/contact" className="btn-primary">
-            Hai să lucrăm
+            Începe un proiect
           </a>
         </div>
 
@@ -110,7 +110,7 @@ export default function Navbar() {
             onClick={() => setMenuOpen(false)}
             className="btn-primary w-full justify-center"
           >
-            Hai să lucrăm
+            Începe un proiect
           </a>
         </div>
       </div>
