@@ -674,6 +674,23 @@ export const siteData = {
       crew: {},
     },
     {
+      id: 37,
+      title: "Gillette",
+      slug: "gillette",
+      client: "Gillette",
+      agency: "NewView",
+      year: null,
+      category: "content",
+      thumbnail: "/images/placeholder-project.webp",
+      video: null,
+      lowresVideo: "/lowres-gillette.mp4",
+      tags: ["Content", "Commercial"],
+      crew: {
+        "Editare video și Grafică": ["Petru Vlad"],
+        "Producție": ["Cristina Bolohan"],
+      },
+    },
+    {
       id: 36,
       title: "Cursor Timișoara",
       slug: "cursor-timisoara",
