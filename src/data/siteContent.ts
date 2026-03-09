@@ -701,7 +701,7 @@ export const siteData = {
       year: null,
       category: "content",
       thumbnail: "/images/placeholder-project.webp",
-      video: null,
+      video: "/lowres-gillette.mp4",
       lowresVideo: "/lowres-gillette.mp4",
       tags: ["Content", "Commercial"],
       crew: {
