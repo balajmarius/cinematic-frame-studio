@@ -45,7 +45,7 @@ export default function Navbar() {
           <img
             src={siteData.logo}
             alt={siteData.name}
-            className="h-12 object-contain"
+            className="h-16 object-contain"
           />
         </a>
 
