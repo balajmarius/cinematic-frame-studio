@@ -673,6 +673,21 @@ export const siteData = {
       tags: ["Evenimente"],
       crew: {},
     },
+    {
+      id: 36,
+      title: "Cursor Timișoara",
+      slug: "cursor-timisoara",
+      client: "Cursor",
+      agency: null,
+      year: 2026,
+      category: "content",
+      thumbnail: "/images/placeholder-project.webp",
+      video: null,
+      youtubeUrl: "https://www.youtube.com/embed/D5xffYKpBDw",
+      lowresVideo: "/lowres-cursor-tm.mp4",
+      tags: ["Content"],
+      crew: {},
+    },
   ],
 
   clients: [
