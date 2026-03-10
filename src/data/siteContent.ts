@@ -89,7 +89,7 @@ export const siteData = {
       lowresVideo: "/lowres-project-5.mp4",
       tags: ["Content", "Social"],
       crew: {
-        "Foto / Cinematografie": ["Petru Vlad", "Andi Popa", "Ovidiu Pelmuș"],
+        "Foto / Imagine": ["Petru Vlad", "Andi Popa", "Ovidiu Pelmuș"],
         "Editare video și Grafică": ["Petru Vlad"],
       },
     },
