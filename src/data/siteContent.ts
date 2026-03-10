@@ -141,7 +141,7 @@ export const siteData = {
       lowresVideo: "/lowres-project-3.mp4",
       tags: ["Content", "Produs"],
       crew: {
-        "Director / Cinematografie": ["Petru Vlad"],
+        "Regie / Imagine": ["Petru Vlad"],
         "Post-producție": ["Petru Vlad"],
       },
     },
