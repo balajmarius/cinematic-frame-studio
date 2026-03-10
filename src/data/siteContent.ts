@@ -68,7 +68,7 @@ export const siteData = {
       slug: "inchiriere-aparatura",
       title: "Închiriere Aparatură",
       excerpt: "Punem la dispoziție aparatura necesară pentru majoritatea tipurilor de filmare.",
-      description: "Punem la dispoziție aparatura necesară pentru majoritatea tipurilor de filmare, de la camere și obiective, până la lumini de filmare și echipamente audio. Oferim echipamentul potrivit atunci când nu este necesară și prezența echipei complete.",
+      description: "Atunci când nu e nevoie și de echipa noastră, putem pune la dispoziție aparatura necesară pentru majoritatea tipurilor de filmare, de la camere și obiective, până la lumini de filmare și echipamente audio.",
       thumbnail: "/images/service-equipment.webp",
       video: "/service-equipment.mp4",
     },
