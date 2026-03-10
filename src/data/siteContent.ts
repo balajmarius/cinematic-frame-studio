@@ -89,7 +89,7 @@ export const siteData = {
       lowresVideo: "/lowres-project-5.mp4",
       tags: ["Content", "Social"],
       crew: {
-        "Foto / Cinematografie": ["Petru Vlad", "Andi Popa", "Ovidiu Pelmuș"],
+        "Foto / Imagine": ["Petru Vlad", "Andi Popa", "Ovidiu Pelmuș"],
         "Editare video și Grafică": ["Petru Vlad"],
       },
     },
@@ -141,7 +141,7 @@ export const siteData = {
       lowresVideo: "/lowres-project-3.mp4",
       tags: ["Content", "Produs"],
       crew: {
-        "Director / Cinematografie": ["Petru Vlad"],
+        "Regie / Imagine": ["Petru Vlad"],
         "Post-producție": ["Petru Vlad"],
       },
     },
@@ -252,7 +252,7 @@ export const siteData = {
       previewStart: 1,
       tags: ["Content", "Eveniment"],
       crew: {
-        "Foto / Cinematografie": ["Petru Vlad", "Alin Barbu", "Augustin Bucur", "Marian Titirigă", "Marian Popa"],
+        "Foto / Imagine": ["Petru Vlad", "Alin Barbu", "Augustin Bucur", "Marian Titirigă", "Marian Popa"],
         "Editare video și Grafică": ["Petru Vlad"],
         "Concept și Producție": ["Petru Vlad"],
       },
