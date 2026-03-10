@@ -32,7 +32,7 @@ export const siteData = {
       slug: "productie-video",
       title: "Producție Video",
       excerpt: "Acoperim toată gama producțiilor video — filmări corporate, educaționale sau clipuri promoționale.",
-      description: "Acoperim toată gama producțiilor video, de la filmări corporate la programe educaționale sau clipuri promoționale. Știm să punem ideile într-o lumină deosebită și favorabilă și ne asumăm responsabilitatea de a transpune povestea ta în imagini care conving.",
+      description: "Acoperim toată gama producțiilor video, de la filmări corporate la programe educaționale sau clipuri promoționale. Ne place sa folosim lumina și punem accent pe estetică pentru a evidenția detalii și a crea cadre care vorbesc de la sine. Altfel spus, știm sa iti punem ideile intr-o lumina deosebita si favorabila. Tu vii cu povestea, noi o punem în imagini care conving.",
       thumbnail: "/images/service-production.webp",
       video: "/service-production.mp4",
     },
