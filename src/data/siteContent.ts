@@ -41,7 +41,7 @@ export const siteData = {
       slug: "filmari-evenimente",
       title: "Filmări Evenimente",
       excerpt: "Captăm momentele cheie, energia evenimentului și toate acele mici detalii care fac diferența.",
-      description: "Captăm momentele cheie, energia evenimentului și toate acele mici detalii care fac diferența. Oferim servicii de filmare pentru evenimente corporate, competiții sportive, lansări de produse și materiale pentru știri. Montajele noastre video sunt create pentru a angaja publicul și pentru a-i inspira dorința de a reviziona momentele importante ale evenimentului.",
+      description: "Captăm momentele cheie, energia evenimentului și toate acele mici detalii care fac diferența. Fie că e un eveniment corporate, o competitie sportiva, o lansare sau un material pentru stiri, montajele făcute de noi îți vor face publicul să vrea să revadă iar și iar ce s-a întamplat acolo.",
       thumbnail: "/images/service-events.webp",
       video: "/service-events.mp4",
     },
