@@ -64,7 +64,7 @@ export default function Service() {
                             : "text-muted-foreground hover:text-gold hover:pl-2"
                         }`}
                       >
-                        <span className={`text-xs transition-opacity duration-300 ${s.slug === slug ? "opacity-80" : "opacity-40 group-hover/nav:opacity-70"}`}>0{i + 1}.</span>
+                        <span className={`text-xs transition-opacity duration-300 ${s.slug === slug ? "opacity-80" : "opacity-40 group-hover/nav:opacity-70"}`}>{i + 1}.</span>
                         {s.title}
                       </a>
                       <div
