@@ -441,7 +441,7 @@ export const siteData = {
       crew: {
         "Imagine": ["Petru Vlad", "Augustin Bucur"],
         "Montaj": ["Petru Vlad"],
-        "Producție": ["Petru Vlad"],
+        "Concept și Producție": ["Petru Vlad"],
       },
     },
     {
