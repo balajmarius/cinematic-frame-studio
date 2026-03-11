@@ -195,7 +195,7 @@ export const siteData = {
       lowresVideo: "/lowres-kenwood-patrizia.mp4",
       tags: ["Content", "Commercial"],
       crew: {
-        "Foto": ["Augustin Bucur", "Petru Vlad"],
+        "Imagine": ["Augustin Bucur", "Petru Vlad"],
         "Editare video și Grafică": ["Petru Vlad"],
         "Sunet": ["Gabriel Rizescu"],
       },
@@ -234,7 +234,7 @@ export const siteData = {
       tags: ["Content", "Corporate"],
       crew: {
         "Concept": ["Felicia Moga"],
-        "Foto": ["Petru Vlad"],
+        "Imagine": ["Petru Vlad"],
         "Editare video și Grafică": ["Petru Vlad"],
       },
     },
@@ -272,7 +272,7 @@ export const siteData = {
       previewStart: 4,
       tags: ["Content", "Social"],
       crew: {
-        "Foto": ["Petru Vlad", "Augustin Bucur", "Alin Barbu"],
+        "Imagine": ["Petru Vlad", "Augustin Bucur", "Alin Barbu"],
         "Editare video și Grafică": ["Petru Vlad"],
         "Producție": ["Petru Vlad"],
       },
@@ -291,7 +291,7 @@ export const siteData = {
       lowresVideo: "/lowres-kenwood-printesa-urbana.mp4",
       tags: ["Content", "Commercial"],
       crew: {
-        "Foto": ["Augustin Bucur", "Petru Vlad"],
+        "Imagine": ["Augustin Bucur", "Petru Vlad"],
         "Editare video și Grafică": ["Petru Vlad"],
         "Sunet": ["Gabriel Rizescu"],
       },
@@ -345,7 +345,7 @@ export const siteData = {
       lowresVideo: "/lowres-noua-ne-pasa-granturi.mp4",
       tags: ["Content", "Social"],
       crew: {
-        "Foto": ["Petru Vlad", "Laurențiu Suchici"],
+        "Imagine": ["Petru Vlad", "Laurențiu Suchici"],
         "Editare video și Grafică": ["Petru Vlad"],
         "Producție": ["Petru Vlad"],
       },
@@ -381,7 +381,7 @@ export const siteData = {
       lowresVideo: "/lowres-chef-aida.mp4",
       tags: ["Content", "Commercial"],
       crew: {
-        "Foto": ["Augustin Bucur", "Petru Vlad"],
+        "Imagine": ["Augustin Bucur", "Petru Vlad"],
         "Editare video și Grafică": ["Petru Vlad"],
         "Sunet": ["Gabriel Rizescu"],
       },
@@ -419,7 +419,7 @@ export const siteData = {
       previewStart: 2,
       tags: ["Content", "Corporate"],
       crew: {
-        "Foto": ["Petru Vlad", "Alin Barbu"],
+        "Imagine": ["Petru Vlad", "Alin Barbu"],
         "Editare video și Grafică": ["Petru Vlad"],
         "Producție": ["Felicia Moga", "Petru Vlad"],
       },
@@ -439,7 +439,7 @@ export const siteData = {
       previewStart: 2,
       tags: ["Content", "Social"],
       crew: {
-        "Foto": ["Petru Vlad", "Augustin Bucur"],
+        "Imagine": ["Petru Vlad", "Augustin Bucur"],
         "Montaj": ["Petru Vlad"],
         "Producție": ["Petru Vlad"],
       },
@@ -457,7 +457,7 @@ export const siteData = {
       lowresVideo: "/lowres-project-7.mp4",
       tags: ["Content", "Eveniment"],
       crew: {
-        "Foto": ["Marian Titirigă", "Petru Vlad"],
+        "Imagine": ["Marian Titirigă", "Petru Vlad"],
         "Montaj": ["Petru Vlad"],
       },
     },
@@ -475,7 +475,7 @@ export const siteData = {
       previewStart: 2,
       tags: ["Content", "Commercial"],
       crew: {
-        "Foto": ["Petru Vlad"],
+        "Imagine": ["Petru Vlad"],
         "Montaj": ["Petru Vlad"],
       },
     },
@@ -493,7 +493,7 @@ export const siteData = {
       lowresVideo: "/fara-asfalt-2024.mp4",
       tags: ["After Movie", "Eveniment"],
       crew: {
-        "Foto": ["Petru Vlad", "Alin Barbu", "Marian Popa"],
+        "Imagine": ["Petru Vlad", "Alin Barbu", "Marian Popa"],
         "Editare video și Grafică": ["Petru Vlad"],
         "Concept și Producție": ["Petru Vlad"],
       },
@@ -687,7 +687,7 @@ export const siteData = {
       lowresVideo: "/lowres-supereroii.mp4",
       tags: ["Content", "Social"],
       crew: {
-        "Foto": ["Petru Vlad"],
+        "Imagine": ["Petru Vlad"],
         "Regie": ["Petru Vlad"],
         "Producție": ["Petru Vlad"],
       },
