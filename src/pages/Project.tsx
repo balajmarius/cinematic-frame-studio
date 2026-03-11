@@ -146,7 +146,6 @@ export default function Project() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                   {Object.entries(project.crew).map(([role, members]) => {
                     const displayRole = role
-                      .replace(/\bFoto\b/g, "Imagine")
                       .replace(/\bMontaj\b/g, "Editare video");
                     return (
                     <div key={role}>
