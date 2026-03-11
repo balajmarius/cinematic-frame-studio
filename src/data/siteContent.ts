@@ -457,7 +457,7 @@ export const siteData = {
       lowresVideo: "/lowres-project-7.mp4",
       tags: ["Content", "Eveniment"],
       crew: {
-        "Foto": ["Marian Titirigă", "Petru Vlad"],
+        "Imagine": ["Marian Titirigă", "Petru Vlad"],
         "Montaj": ["Petru Vlad"],
       },
     },
