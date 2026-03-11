@@ -419,7 +419,7 @@ export const siteData = {
       previewStart: 2,
       tags: ["Content", "Corporate"],
       crew: {
-        "Foto": ["Petru Vlad", "Alin Barbu"],
+        "Imagine": ["Petru Vlad", "Alin Barbu"],
         "Editare video și Grafică": ["Petru Vlad"],
         "Producție": ["Felicia Moga", "Petru Vlad"],
       },
