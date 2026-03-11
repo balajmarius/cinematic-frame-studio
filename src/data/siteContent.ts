@@ -493,7 +493,7 @@ export const siteData = {
       lowresVideo: "/fara-asfalt-2024.mp4",
       tags: ["After Movie", "Eveniment"],
       crew: {
-        "Foto": ["Petru Vlad", "Alin Barbu", "Marian Popa"],
+        "Imagine": ["Petru Vlad", "Alin Barbu", "Marian Popa"],
         "Editare video și Grafică": ["Petru Vlad"],
         "Concept și Producție": ["Petru Vlad"],
       },
