@@ -347,7 +347,7 @@ export const siteData = {
       crew: {
         "Imagine": ["Petru Vlad", "Laurențiu Suchici"],
         "Editare video și Grafică": ["Petru Vlad"],
-        "Producție": ["Petru Vlad"],
+        "Concept și Producție": ["Petru Vlad"],
       },
     },
     {
