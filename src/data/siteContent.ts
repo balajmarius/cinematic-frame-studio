@@ -687,7 +687,7 @@ export const siteData = {
       lowresVideo: "/lowres-supereroii.mp4",
       tags: ["Content", "Social"],
       crew: {
-        "Foto": ["Petru Vlad"],
+        "Imagine": ["Petru Vlad"],
         "Regie": ["Petru Vlad"],
         "Producție": ["Petru Vlad"],
       },
