@@ -475,7 +475,7 @@ export const siteData = {
       previewStart: 2,
       tags: ["Content", "Commercial"],
       crew: {
-        "Foto": ["Petru Vlad"],
+        "Imagine": ["Petru Vlad"],
         "Montaj": ["Petru Vlad"],
       },
     },
