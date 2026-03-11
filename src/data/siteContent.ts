@@ -195,7 +195,7 @@ export const siteData = {
       lowresVideo: "/lowres-kenwood-patrizia.mp4",
       tags: ["Content", "Commercial"],
       crew: {
-        "Foto": ["Augustin Bucur", "Petru Vlad"],
+        "Imagine": ["Augustin Bucur", "Petru Vlad"],
         "Editare video și Grafică": ["Petru Vlad"],
         "Sunet": ["Gabriel Rizescu"],
       },
