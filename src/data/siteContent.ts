@@ -345,7 +345,7 @@ export const siteData = {
       lowresVideo: "/lowres-noua-ne-pasa-granturi.mp4",
       tags: ["Content", "Social"],
       crew: {
-        "Foto": ["Petru Vlad", "Laurențiu Suchici"],
+        "Imagine": ["Petru Vlad", "Laurențiu Suchici"],
         "Editare video și Grafică": ["Petru Vlad"],
         "Producție": ["Petru Vlad"],
       },
