@@ -1,6 +1,7 @@
 import { useRef, useEffect, useState } from "react";
 import { ArrowDown } from "lucide-react";
 import { siteData } from "@/data/siteContent";
+import { useIsMobile } from "@/hooks/use-mobile";
 
 export default function HeroSection() {
   const videoRef = useRef<HTMLVideoElement>(null);
