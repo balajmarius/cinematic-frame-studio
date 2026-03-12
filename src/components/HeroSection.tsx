@@ -57,7 +57,7 @@ export default function HeroSection() {
         aria-hidden="true"
       />
 
-      {showPlayButton && (
+      {showPlayButton && !isMobile && (
         <button
           type="button"
           onClick={() => {
