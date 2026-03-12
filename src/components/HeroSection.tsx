@@ -48,7 +48,7 @@ export default function HeroSection() {
         ref={videoRef}
         className="absolute inset-0 w-full h-full object-cover transition-transform duration-100 will-change-transform"
         style={{ transform: `scale(${scale})` }}
-        src={siteData.hero.videoUrl}
+        src={videoSrc}
         autoPlay
         muted
         loop
