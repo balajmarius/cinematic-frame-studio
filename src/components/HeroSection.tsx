@@ -8,6 +8,8 @@ export default function HeroSection() {
   const sectionRef = useRef<HTMLDivElement>(null);
   const [showPlayButton, setShowPlayButton] = useState(false);
   const [scale, setScale] = useState(1);
+  const isMobile = useIsMobile();
+  const videoSrc = isMobile ? "/hero-reel-mobile.mp4" : siteData.hero.videoUrl;
 
   useEffect(() => {
     const video = videoRef.current;
