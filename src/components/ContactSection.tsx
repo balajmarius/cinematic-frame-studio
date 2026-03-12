@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Send, MapPin, Mail, Phone } from "lucide-react";
+import { Send, MapPin, Mail, Phone, Instagram } from "lucide-react";
 import { useReveal } from "@/hooks/useReveal";
 import { siteData } from "@/data/siteContent";
 
