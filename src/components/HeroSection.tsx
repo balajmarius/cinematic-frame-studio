@@ -1,12 +1,15 @@
 import { useRef, useEffect, useState } from "react";
 import { ArrowDown } from "lucide-react";
 import { siteData } from "@/data/siteContent";
+import { useIsMobile } from "@/hooks/use-mobile";
 
 export default function HeroSection() {
   const videoRef = useRef<HTMLVideoElement>(null);
   const sectionRef = useRef<HTMLDivElement>(null);
   const [showPlayButton, setShowPlayButton] = useState(false);
   const [scale, setScale] = useState(1);
+  const isMobile = useIsMobile();
+  const videoSrc = isMobile ? "/hero-reel-mobile.mp4" : siteData.hero.videoUrl;
 
   useEffect(() => {
     const video = videoRef.current;
@@ -45,7 +48,7 @@ export default function HeroSection() {
         ref={videoRef}
         className="absolute inset-0 w-full h-full object-cover transition-transform duration-100 will-change-transform"
         style={{ transform: `scale(${scale})` }}
-        src={siteData.hero.videoUrl}
+        src={videoSrc}
         autoPlay
         muted
         loop
