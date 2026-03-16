@@ -756,7 +756,7 @@ export const siteData = {
       vimeoUrl: null,
       lowresVideo: null,
       tags: [],
-      description: null,
+      
       muted: false,
       crew: {
         "Imagine": ["Petru Vlad"],
