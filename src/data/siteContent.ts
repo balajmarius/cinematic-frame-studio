@@ -742,6 +742,27 @@ export const siteData = {
         "Post-producție": ["Petru Vlad"],
       },
     },
+    {
+      id: 31,
+      title: "Tremfya",
+      slug: "tremfya",
+      client: "Ferca Medical",
+      agency: null,
+      year: null,
+      category: "confidențiale",
+      thumbnail: "/images/tremfya.jpg",
+      video: null,
+      vimeoUrl: null,
+      lowresVideo: null,
+      tags: [],
+      description: null,
+      muted: false,
+      crew: {
+        "Imagine": ["Petru Vlad"],
+        "Regie": ["Petric Viorel"],
+        "Concept": ["Alina Cascaval", "Viorel Petric"],
+      },
+    },
   ],
 
   clients: [
