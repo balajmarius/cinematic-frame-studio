@@ -744,5 +744,5 @@ export const siteData = {
     cta: "Hai să creăm ceva împreună.",
   },
 
-  categories: ["Content", "After Movie", "Evenimente"],
+  categories: ["Content", "After Movie", "Evenimente", "Confidențiale"],
 };
