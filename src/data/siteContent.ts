@@ -747,6 +747,7 @@ export const siteData = {
       title: "Tremfya",
       slug: "tremfya",
       client: "Ferca Medical",
+      description: "Clip promotional dedicat profesioniștilor din domeniul sănătății.",
       agency: null,
       year: null,
       category: "confidențiale",
