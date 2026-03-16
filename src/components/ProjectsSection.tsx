@@ -107,6 +107,12 @@ export default function ProjectsSection() {
           </div>
         </div>
 
+        {displayedCategory.toLowerCase() === "confidențiale" && (
+          <p className="text-center text-sm text-muted-foreground mb-10 max-w-2xl mx-auto">
+            Unele proiecte nu pot fi publicate online din motive de confidențialitate. Versiunile complete pot fi accesate la cerere, prin link privat.
+          </p>
+        )}
+
         <div
           className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 transition-all duration-250 ${
             animating ? "opacity-0 translate-y-3" : "opacity-100 translate-y-0"
