@@ -92,6 +92,11 @@ export default function Project() {
                   {project.category}
                 </span>
               </div>
+              {'description' in project && (project as any).description && (
+                <p className="mt-4 text-sm text-muted-foreground max-w-2xl">
+                  {(project as any).description}
+                </p>
+              )}
             </div>
           </div>
         </section>

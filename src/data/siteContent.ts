@@ -724,6 +724,24 @@ export const siteData = {
       tags: ["After Movie"],
       crew: {},
     },
+    {
+      id: 30,
+      title: "Geistlich Biomaterials",
+      slug: "geistlich-biomaterials",
+      client: "Straumann Dental",
+      description: "Clip prezentat și premiat în cadrul conferinței anuale a medicilor stomatologi Sino-Dental 2024 China",
+      agency: null,
+      year: 2024,
+      category: "confidențiale",
+      thumbnail: "/images/straumann-geistlich.jpg",
+      video: null,
+      lowresVideo: null,
+      tags: ["Confidențiale"],
+      crew: {
+        "Concept": ["Cristina Bolohan", "Petru Vlad"],
+        "Post-producție": ["Petru Vlad"],
+      },
+    },
   ],
 
   clients: [
@@ -744,5 +762,5 @@ export const siteData = {
     cta: "Hai să creăm ceva împreună.",
   },
 
-  categories: ["Content", "After Movie", "Evenimente"],
+  categories: ["Content", "After Movie", "Evenimente", "Confidențiale"],
 };
