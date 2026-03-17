@@ -772,7 +772,7 @@ export const siteData = {
       client: "Novartis",
       description: "Clip non-promotional dedicat profesioniștilor din domeniul sănătății.",
       agency: "Ferca Medical",
-      year: null,
+      year: 2025,
       category: "confidențiale",
       thumbnail: "/images/hpn.jpg",
       video: null,
