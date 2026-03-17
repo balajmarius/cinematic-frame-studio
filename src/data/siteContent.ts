@@ -794,7 +794,7 @@ export const siteData = {
       client: "Ferca Medical",
       description: "Clip promotional dedicat profesioniștilor din domeniul sănătății.",
       agency: null,
-      year: null,
+      year: 2025,
       category: "confidențiale",
       thumbnail: "/images/tremfya.jpg",
       video: null,
