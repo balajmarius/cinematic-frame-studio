@@ -749,7 +749,7 @@ export const siteData = {
       client: "Raiffeisen Bank",
       description: "Clip premiat intern de către Raiffeisen Bank Viena.",
       agency: "DcCommunication",
-      year: null,
+      year: 2020,
       category: "confidențiale",
       thumbnail: "/images/rflex.jpg",
       video: null,
