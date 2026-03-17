@@ -744,7 +744,7 @@ export const siteData = {
     },
     {
       id: 32,
-      title: "RFlex",
+      title: "R-FLEX",
       slug: "rflex",
       client: "Raiffeisen Bank",
       description: "Clip premiat intern de către Raiffeisen Bank Viena.",
