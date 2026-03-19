@@ -833,6 +833,23 @@ export const siteData = {
         "Asistent": ["George Sbână"],
       },
     },
+    {
+      id: 35,
+      title: "Conferință",
+      slug: "conferinta-nivea",
+      client: "Nivea",
+      description: "Content conferință anuală de vânzări Nivea.",
+      agency: "Highlight",
+      year: 2018,
+      category: "confidențiale",
+      thumbnail: "/images/placeholder-project.webp",
+      video: "/nivea-conferinta.mp4",
+      lowresVideo: null,
+      tags: [],
+      previewStart: 0,
+      muted: false,
+      crew: {},
+    },
   ],
 
   clients: [
