@@ -844,7 +844,7 @@ export const siteData = {
       category: "confidențiale",
       thumbnail: "/images/placeholder-project.webp",
       video: "/nivea-conferinta.mp4",
-      lowresVideo: null,
+      lowresVideo: "/nivea-conferinta.mp4",
       tags: [],
       previewStart: 0,
       muted: false,
