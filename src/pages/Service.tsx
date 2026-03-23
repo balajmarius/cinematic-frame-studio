@@ -112,6 +112,23 @@ export default function Service() {
                   </div>
                 </div>
 
+                {/* Rental notice */}
+                {slug === "inchiriere-aparatura" && (
+                  <div className="reveal mb-10">
+                    <p className="text-lg text-muted-foreground leading-relaxed mb-3">
+                      Oferta de închiriere este disponibilă pentru producțiile din Timișoara.
+                    </p>
+                    <a
+                      href="/rate-card-petru-film.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 text-gold hover:text-gold/80 font-semibold transition-colors duration-200 underline underline-offset-4"
+                    >
+                      Descarcă oferta de închiriere echipamente
+                    </a>
+                  </div>
+                )}
+
                 {/* Image */}
                 <div className="reveal rounded-xl overflow-hidden aspect-video bg-surface">
                   <img
